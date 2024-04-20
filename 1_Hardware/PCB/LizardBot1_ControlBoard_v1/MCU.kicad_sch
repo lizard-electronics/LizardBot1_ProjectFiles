@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "00886026-ec6e-4466-a970-e30b8c47c5f2")
+	(paper "A4")
+	(title_block
+		(title "LizardBot 1 Control Board: MCU")
+		(date "2024-04-17")
+		(rev "v1.0.0")
+		(company "Lizard Electronics")
+		(comment 1 "Designed by: Manuel Lagarto")
+	)
+	(lib_symbols)
+)

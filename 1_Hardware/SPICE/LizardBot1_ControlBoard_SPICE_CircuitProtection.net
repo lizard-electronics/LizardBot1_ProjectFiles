@@ -1,0 +1,15 @@
+* C:\users\manuel\My Documents\LizardBot1_ProjectFiles\1_Hardware\SPICE\LizardBot1_ControlBoard_SPICE_CircuitProtection.asc
+V1 N001 0 12
+M1 N001 N003 N002 N002 AO4630_P
+D1 N003 N002 D
+R1 N003 0 1k
+R2 N002 0 100k
+.model D D
+.lib C:\users\manuel\Local Settings\Application Data\LTspice\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\manuel\Local Settings\Application Data\LTspice\lib\cmp\standard.mos
+* .tran 0 1 0 0.1
+.dc V1 -12 12 0.5
+.backanno
+.end
