@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LizardBot 1 Control Board: Motor Driver")
-		(date "2024-04-17")
+		(date "2024-06-17")
 		(rev "v1.0.0")
 		(company "Lizard Electronics")
 		(comment 1 "Designed by: Manuel Lagarto")
