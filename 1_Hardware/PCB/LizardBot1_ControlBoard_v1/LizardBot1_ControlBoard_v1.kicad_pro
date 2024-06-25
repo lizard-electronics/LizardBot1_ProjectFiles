@@ -238,8 +238,9 @@
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "symbol_lib",
-      "PowerSupply_Symbols",
-      "Power_Switching_MPS"
+      "Power_Switching_MPS",
+      "Project_SymbolLib",
+      "PowerSupply_Symbols"
     ]
   },
   "meta": {
@@ -420,10 +421,6 @@
       "MCU"
     ],
     [
-      "b54c643a-f43a-4c60-9b57-2b970e6e7da7",
-      "Communication_Interfaces"
-    ],
-    [
       "67f0cee1-d2bf-46b2-8130-c5f2ed8ff156",
       "Motor_Driver"
     ],
@@ -434,6 +431,10 @@
     [
       "abd7394f-2ce8-4b0e-8de0-533be3378190",
       "Outputs"
+    ],
+    [
+      "b54c643a-f43a-4c60-9b57-2b970e6e7da7",
+      "Communication_Interfaces"
     ]
   ],
   "text_variables": {}

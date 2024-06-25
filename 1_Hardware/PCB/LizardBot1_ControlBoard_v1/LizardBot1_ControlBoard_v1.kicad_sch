@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LizardBot 1 Control Board: Hierarchical Sheet")
-		(date "2024-06-17")
+		(date "2024-06-21")
 		(rev "v1.0.0")
 		(company "Lizard Electronics")
 		(comment 1 "Designed by: Manuel Lagarto")
@@ -66,6 +66,16 @@
 				(justify left top)
 			)
 		)
+		(pin "MCU_BAT_STATUS" output
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "554199e1-bf5c-4e6f-984c-48cf8b7a5fe8")
+		)
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
@@ -76,7 +86,7 @@
 	)
 	(sheet
 		(at 194.31 27.94)
-		(size 38.1 25.4)
+		(size 38.1 40.64)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -96,7 +106,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_Driver.kicad_sch"
-			(at 194.31 53.9246 0)
+			(at 194.31 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,10 +114,150 @@
 				(justify left top)
 			)
 		)
+		(pin "DRV1_IPROPI" output
+			(at 194.31 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab01c937-93e0-4722-87d5-c8e3a024288e")
+		)
+		(pin "DRV1_nFAULT" output
+			(at 194.31 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e8c1557-d6c1-40be-969d-50635d891603")
+		)
+		(pin "DRV2_PH_IN2" input
+			(at 194.31 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff5ed6f4-7977-412c-bbc0-b9ee8803c684")
+		)
+		(pin "DRV2_EN_IN1" input
+			(at 194.31 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1560d540-22cd-4202-ab2d-4383428be8e2")
+		)
+		(pin "DRV2_nSLEEP" input
+			(at 194.31 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c38673dc-84d2-4c48-82a9-664082d1956e")
+		)
+		(pin "DRV1_EN_IN1" input
+			(at 194.31 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4285f44a-16a8-4c70-b774-98567232da55")
+		)
+		(pin "DRV1_PH_IN2" input
+			(at 194.31 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24f35550-2897-4e43-bfaf-26686a0defa5")
+		)
+		(pin "DRV1_nSLEEP" input
+			(at 194.31 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac2e71bf-9460-41d0-8a4e-316e7b870bb8")
+		)
+		(pin "DRV2_IPROPI" output
+			(at 194.31 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "40c4517a-7c69-4615-b72c-61c08afaa15f")
+		)
+		(pin "DRV2_nFAULT" output
+			(at 194.31 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae547942-25e8-4a42-a44c-d9c178ff2639")
+		)
+		(pin "ENC2_B" output
+			(at 194.31 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d39c532-14ef-4e4c-8030-ea097fd938aa")
+		)
+		(pin "ENC2_A" output
+			(at 194.31 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93adfb2c-020a-4ebb-a033-6f1c8cf1a040")
+		)
+		(pin "ENC1_A" output
+			(at 194.31 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe9a237a-2c30-4304-9c69-60df7281cd8e")
+		)
+		(pin "ENC1_B" output
+			(at 194.31 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e433b7b-e80f-45fb-b641-a994a9b7a2c0")
+		)
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -145,7 +295,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -189,7 +339,7 @@
 		)
 	)
 	(sheet
-		(at 194.31 69.85)
+		(at 194.31 83.82)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -201,7 +351,7 @@
 		)
 		(uuid "abd7394f-2ce8-4b0e-8de0-533be3378190")
 		(property "Sheetname" "Outputs"
-			(at 194.31 68.5034 0)
+			(at 194.31 82.4734 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -210,7 +360,7 @@
 			)
 		)
 		(property "Sheetfile" "Outputs.kicad_sch"
-			(at 194.31 95.8346 0)
+			(at 194.31 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -221,7 +371,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -259,7 +409,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
