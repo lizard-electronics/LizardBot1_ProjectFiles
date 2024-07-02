@@ -6,15 +6,165 @@
 	(paper "A4")
 	(title_block
 		(title "LizardBot 1 Control Board: Hierarchical Sheet")
-		(date "2024-06-21")
+		(date "2024-06-26")
 		(rev "v1.0.0")
 		(company "Lizard Electronics")
 		(comment 1 "Designed by: Manuel Lagarto")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10db263a-121a-43ce-87be-6b9dad7724a6")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6191b3-53d5-4ca9-840a-187903db633d")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b4a8bc-9c88-44d9-9b13-ce9cd35496f4")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e92cf0-5b38-4125-9567-e6d5949dfc21")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25afb768-9fd4-421f-8467-5b31bcd5f15a")
+	)
+	(wire
+		(pts
+			(xy 99.06 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df6eeca-3bb8-461d-84be-44e617d3e0f3")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edc91fc-e8a4-409d-9122-1f215a294290")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7170cc43-eb50-4543-a5f7-d6768ac47d4a")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 125.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a0e1c2-2d1b-4eeb-a620-915291fed3cd")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc7e704-231e-4360-919a-f2c51e9f4852")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c403fe51-827f-44cd-94f7-1a387cce4b19")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3150cd8-7eda-4174-a0dc-4faee88f3a61")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e5232f-6a09-42cb-b0c1-cc655852c187")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7377078-2fa9-4d05-92bc-4ddeba5c2b5f")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 125.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9373b7d-972b-4295-adb6-601514370ce4")
+	)
 	(rectangle
-		(start 29.21 158.75)
-		(end 92.71 191.77)
+		(start 19.05 148.59)
+		(end 99.06 191.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -26,7 +176,7 @@
 	)
 	(text "PCB Mounting Points"
 		(exclude_from_sim no)
-		(at 29.21 157.48 0)
+		(at 19.05 147.32 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -37,7 +187,7 @@
 		(uuid "7c32fad0-c91d-4c74-a4df-9fd7bbc9734f")
 	)
 	(sheet
-		(at 54.61 27.94)
+		(at 60.96 27.94)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -49,7 +199,7 @@
 		)
 		(uuid "1ad8e535-9964-46ac-bb04-941393eb127d")
 		(property "Sheetname" "Power_Supply"
-			(at 54.61 26.5934 0)
+			(at 60.96 26.5934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -58,7 +208,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supply.kicad_sch"
-			(at 54.61 53.9246 0)
+			(at 60.96 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,7 +217,7 @@
 			)
 		)
 		(pin "MCU_BAT_STATUS" output
-			(at 92.71 40.64 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,7 +235,7 @@
 		)
 	)
 	(sheet
-		(at 194.31 27.94)
+		(at 60.96 71.12)
 		(size 38.1 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -97,7 +247,7 @@
 		)
 		(uuid "67f0cee1-d2bf-46b2-8130-c5f2ed8ff156")
 		(property "Sheetname" "Motor_Driver"
-			(at 194.31 26.5934 0)
+			(at 60.96 69.7734 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -106,7 +256,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_Driver.kicad_sch"
-			(at 194.31 69.1646 0)
+			(at 60.96 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,142 +265,142 @@
 			)
 		)
 		(pin "DRV1_IPROPI" output
-			(at 194.31 40.64 180)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "ab01c937-93e0-4722-87d5-c8e3a024288e")
 		)
 		(pin "DRV1_nFAULT" output
-			(at 194.31 38.1 180)
+			(at 99.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "9e8c1557-d6c1-40be-969d-50635d891603")
 		)
 		(pin "DRV2_PH_IN2" input
-			(at 194.31 53.34 180)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "ff5ed6f4-7977-412c-bbc0-b9ee8803c684")
 		)
 		(pin "DRV2_EN_IN1" input
-			(at 194.31 50.8 180)
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "1560d540-22cd-4202-ab2d-4383428be8e2")
 		)
 		(pin "DRV2_nSLEEP" input
-			(at 194.31 55.88 180)
+			(at 99.06 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "c38673dc-84d2-4c48-82a9-664082d1956e")
 		)
 		(pin "DRV1_EN_IN1" input
-			(at 194.31 30.48 180)
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "4285f44a-16a8-4c70-b774-98567232da55")
 		)
 		(pin "DRV1_PH_IN2" input
-			(at 194.31 33.02 180)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "24f35550-2897-4e43-bfaf-26686a0defa5")
 		)
 		(pin "DRV1_nSLEEP" input
-			(at 194.31 35.56 180)
+			(at 99.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "ac2e71bf-9460-41d0-8a4e-316e7b870bb8")
 		)
 		(pin "DRV2_IPROPI" output
-			(at 194.31 60.96 180)
+			(at 99.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "40c4517a-7c69-4615-b72c-61c08afaa15f")
 		)
 		(pin "DRV2_nFAULT" output
-			(at 194.31 58.42 180)
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "ae547942-25e8-4a42-a44c-d9c178ff2639")
 		)
 		(pin "ENC2_B" output
-			(at 194.31 63.5 180)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "6d39c532-14ef-4e4c-8030-ea097fd938aa")
 		)
 		(pin "ENC2_A" output
-			(at 194.31 66.04 180)
+			(at 99.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "93adfb2c-020a-4ebb-a033-6f1c8cf1a040")
 		)
 		(pin "ENC1_A" output
-			(at 194.31 43.18 180)
+			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "fe9a237a-2c30-4304-9c69-60df7281cd8e")
 		)
 		(pin "ENC1_B" output
-			(at 194.31 45.72 180)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "5e433b7b-e80f-45fb-b641-a994a9b7a2c0")
 		)
@@ -263,7 +413,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 69.85)
+		(at 191.77 69.85)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -275,7 +425,7 @@
 		)
 		(uuid "882263d2-c567-495a-aed9-a994d90ebd84")
 		(property "Sheetname" "Inputs"
-			(at 54.61 68.5034 0)
+			(at 191.77 68.5034 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -284,7 +434,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs.kicad_sch"
-			(at 54.61 95.8346 0)
+			(at 191.77 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,6 +480,236 @@
 				(justify left top)
 			)
 		)
+		(pin "DRV2_EN_IN1" output
+			(at 125.73 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "014243b6-7f08-4ff5-8c81-e95b95b2ac30")
+		)
+		(pin "DRV2_PH_IN2" output
+			(at 125.73 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9ae718d-b792-4d33-8dab-8b7fff325fc1")
+		)
+		(pin "ENC1_A" input
+			(at 125.73 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b7d15c7-1224-4da9-ac74-e407f9708b24")
+		)
+		(pin "ENC1_B" input
+			(at 125.73 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f43030b-163e-491c-b8a1-1a58cd4218a3")
+		)
+		(pin "DRV1_nFAULT" input
+			(at 125.73 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b298d1b2-e5aa-4c9b-b108-8b4863f70179")
+		)
+		(pin "DRV2_nSLEEP" output
+			(at 125.73 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3460d55-ba97-4963-8a0b-96bdaf6455b4")
+		)
+		(pin "ENC2_B" input
+			(at 125.73 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06a32707-eb74-4d7b-9945-bcdf199a7ab1")
+		)
+		(pin "DRV2_IPROPI" input
+			(at 125.73 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "121b9493-def6-4fb4-ae9c-95ecc194bdc0")
+		)
+		(pin "ENC2_A" input
+			(at 125.73 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7cd96d82-fc52-4e1a-926a-6ff5540a8e64")
+		)
+		(pin "DRV2_nFAULT" input
+			(at 125.73 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d8eb031-c166-4118-aa80-10cfed0a115b")
+		)
+		(pin "MCU_BAT_STATUS" input
+			(at 125.73 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0de10e1c-59cf-4938-8002-2a34025296db")
+		)
+		(pin "DRV1_IPROPI" input
+			(at 125.73 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65d28d92-e6c1-41ba-970b-db6ad15b8c4b")
+		)
+		(pin "DRV1_nSLEEP" output
+			(at 125.73 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9116cab0-6b81-488e-a583-bfa62a4977d2")
+		)
+		(pin "DRV1_PH_IN2" output
+			(at 125.73 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e32ec6b-0039-474b-9e0b-a971605a4a55")
+		)
+		(pin "DRV1_EN_IN1" output
+			(at 125.73 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfe9cfeb-b8b7-4177-820b-b3670d0d3a9e")
+		)
+		(pin "MCU_RXD0" input
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6aa4a95f-784e-4b22-baa7-f2bf9bdf1400")
+		)
+		(pin "MCU_TXD0" input
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03bddae2-cff5-4536-836d-692747d6106a")
+		)
+		(pin "MCU_NEOPIXEL" input
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37012761-5e3f-49a5-bdaa-57716c2bca05")
+		)
+		(pin "MCU_BUZZER" input
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9da4ed84-751d-4445-ad54-bca372b4da6f")
+		)
+		(pin "MCU_BUTTON" input
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b373577f-4c58-487d-83dc-e2ecec277f02")
+		)
+		(pin "MCU_SCL" input
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fff1a76c-7bcd-421a-8a9c-4445f9388a44")
+		)
+		(pin "MCU_SDA" input
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73255047-ed2b-45fc-86da-2e1fc3f26231")
+		)
+		(pin "MCU_FAN_PWM" input
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cced8490-d6f7-4133-8ed0-f427f6b6573d")
+		)
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
@@ -339,7 +719,7 @@
 		)
 	)
 	(sheet
-		(at 194.31 83.82)
+		(at 191.77 27.94)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -351,7 +731,7 @@
 		)
 		(uuid "abd7394f-2ce8-4b0e-8de0-533be3378190")
 		(property "Sheetname" "Outputs"
-			(at 194.31 82.4734 0)
+			(at 191.77 26.5934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -360,7 +740,7 @@
 			)
 		)
 		(property "Sheetfile" "Outputs.kicad_sch"
-			(at 194.31 109.8046 0)
+			(at 191.77 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +757,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 110.49)
+		(at 191.77 110.49)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -389,7 +769,7 @@
 		)
 		(uuid "b54c643a-f43a-4c60-9b57-2b970e6e7da7")
 		(property "Sheetname" "Communication_Interfaces"
-			(at 54.61 109.1434 0)
+			(at 191.77 109.1434 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -398,7 +778,7 @@
 			)
 		)
 		(property "Sheetfile" "Communication_Interfaces.kicad_sch"
-			(at 54.61 136.4746 0)
+			(at 191.77 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

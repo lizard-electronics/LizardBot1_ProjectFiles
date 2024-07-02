@@ -6,12 +6,199 @@
 	(paper "A4")
 	(title_block
 		(title "LizardBot 1 Control Board: Power Supply")
-		(date "2024-06-21")
+		(date "2024-06-10")
 		(rev "v1.0.0")
 		(company "Lizard Electronics")
 		(comment 1 "Designed by: Manuel Lagarto")
 	)
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -4470,7 +4657,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 49.53) (xy 36.83 54.61)
+			(xy 44.45 49.53) (xy 44.45 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4540,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 49.53) (xy 36.83 49.53)
+			(xy 31.75 49.53) (xy 44.45 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4610,7 +4797,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 80.01) (xy 36.83 80.01)
+			(xy 31.75 80.01) (xy 44.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4730,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 80.01) (xy 36.83 85.09)
+			(xy 44.45 80.01) (xy 44.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5584,7 +5771,7 @@
 		)
 		(uuid "77d0c881-735f-4cff-9f6c-0d6d705cc10c")
 	)
-	(text "Step-down circuitry from 5V to 3.3V.\nValues defined according to AP2112 datasheet (600mA max).\n\n3.35VDC output connector for external devices."
+	(text "(!) Needs Final Review (!)\nStep-down circuitry from 5V to 3.3V.\nValues defined according to AP2112 datasheet (600mA max).\n\n3.35VDC output connector for external devices."
 		(exclude_from_sim no)
 		(at 181.61 87.63 0)
 		(effects
@@ -7368,6 +7555,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 26.67 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43dfb87f-038d-42a8-be95-1682bf5b9a12")
+		(property "Reference" "J202"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd0828c8-ce73-4ef4-bc0b-4b54273dc443")
+		)
+		(pin "2"
+			(uuid "c4b4e6a4-1438-4b28-9ff5-14024314cde0")
+		)
+		(instances
+			(project ""
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
+					(reference "J202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 257.81 59.69 0)
 		(unit 1)
@@ -7902,76 +8158,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "632cbedd-ceec-4e09-9584-875d50b6f1f8")
-		(property "Reference" "J202"
-			(at 26.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 26.67 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "84e2c40b-bb50-487e-9d21-8b361c1b2474")
-		)
-		(pin "1"
-			(uuid "98d84516-6a8b-4804-8846-66950ae2e739")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 36.83 85.09 0)
+		(at 44.45 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7980,7 +8168,7 @@
 		(fields_autoplaced yes)
 		(uuid "64afdbed-c4cb-4902-8c37-14b475c2ea6b")
 		(property "Reference" "#PWR0207"
-			(at 36.83 91.44 0)
+			(at 44.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +8177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 90.17 0)
+			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +8185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 85.09 0)
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 85.09 0)
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 85.09 0)
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,19 +9275,21 @@
 		(dnp no)
 		(uuid "9ea8d654-5132-4008-9f41-1822ef1dfa2d")
 		(property "Reference" "J201"
-			(at 26.67 55.88 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 26.67 53.34 0)
+			(at 25.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -11318,7 +11508,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 54.61 0)
+		(at 44.45 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11326,8 +11516,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f30fa6-7d74-45c8-b45c-19ac56366527")
-		(property "Reference" "#PWR0205"
-			(at 36.83 60.96 0)
+		(property "Reference" "#PWR0206"
+			(at 44.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11336,7 +11526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 59.69 0)
+			(at 44.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +11534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 54.61 0)
+			(at 44.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +11543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 54.61 0)
+			(at 44.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +11552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 54.61 0)
+			(at 44.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +11566,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0205")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -11729,7 +11919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef554902-7174-42fe-9e21-cecd9de85a86")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0205"
 			(at 36.83 77.47 0)
 			(effects
 				(font
@@ -11779,7 +11969,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0206")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
