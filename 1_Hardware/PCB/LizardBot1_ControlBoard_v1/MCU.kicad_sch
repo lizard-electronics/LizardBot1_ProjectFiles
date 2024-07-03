@@ -6489,7 +6489,7 @@
 		(uuid "1143c0a9-4d7c-49d2-8c24-e3e8c64597a6")
 	)
 	(hierarchical_label "MCU_BUZZER"
-		(shape input)
+		(shape output)
 		(at 46.99 177.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6561,7 +6561,7 @@
 		(uuid "43ed4afa-0413-480c-b4a2-7b7b8fb6cf3a")
 	)
 	(hierarchical_label "MCU_TXD0"
-		(shape input)
+		(shape output)
 		(at 124.46 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6669,7 +6669,7 @@
 		(uuid "7b7eee57-bfd4-49e3-9304-16396a4e5903")
 	)
 	(hierarchical_label "MCU_NEOPIXEL"
-		(shape input)
+		(shape output)
 		(at 124.46 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6705,7 +6705,7 @@
 		(uuid "84c08224-4011-4a49-94c9-4d9863ea5df5")
 	)
 	(hierarchical_label "MCU_FAN_PWM"
-		(shape input)
+		(shape output)
 		(at 124.46 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6717,7 +6717,7 @@
 		(uuid "89715aee-9bae-4baa-a173-35870dbd5f5f")
 	)
 	(hierarchical_label "MCU_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 124.46 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6753,7 +6753,7 @@
 		(uuid "9cab27f5-88d1-406c-90d3-49ae4702ba59")
 	)
 	(hierarchical_label "MCU_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 124.46 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6885,7 +6885,7 @@
 		(uuid "d66b91cd-d158-4a86-a2fd-fe6b1487010c")
 	)
 	(hierarchical_label "MCU_BUZZER"
-		(shape input)
+		(shape output)
 		(at 124.46 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6933,7 +6933,7 @@
 		(uuid "e3ab500c-cf07-41a7-8f23-4f7ec30c2fac")
 	)
 	(hierarchical_label "MCU_TXD0"
-		(shape input)
+		(shape output)
 		(at 173.99 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6945,7 +6945,7 @@
 		(uuid "ef476964-124c-4330-94c9-a5a6e16acea5")
 	)
 	(hierarchical_label "MCU_FAN_PWM"
-		(shape input)
+		(shape output)
 		(at 114.3 162.56 0)
 		(fields_autoplaced yes)
 		(effects

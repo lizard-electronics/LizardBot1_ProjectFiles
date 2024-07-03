@@ -14,6 +14,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 163.83 87.63) (xy 191.77 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d28b6c-2cf2-4c71-a873-bd70846da499")
+	)
+	(wire
+		(pts
 			(xy 99.06 96.52) (xy 125.73 96.52)
 		)
 		(stroke
@@ -34,6 +44,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 46.99) (xy 163.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220d6ffc-bdd7-42b6-bf07-216cf03dce10")
+	)
+	(wire
+		(pts
 			(xy 99.06 93.98) (xy 125.73 93.98)
 		)
 		(stroke
@@ -51,6 +71,16 @@
 			(type default)
 		)
 		(uuid "22e92cf0-5b38-4125-9567-e6d5949dfc21")
+	)
+	(wire
+		(pts
+			(xy 163.83 85.09) (xy 191.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2366406b-e33c-4152-ad9c-4b5ef994350c")
 	)
 	(wire
 		(pts
@@ -94,6 +124,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 92.71) (xy 191.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b051859-74cc-4a16-8936-d95b6d3f896e")
+	)
+	(wire
+		(pts
 			(xy 99.06 40.64) (xy 125.73 40.64)
 		)
 		(stroke
@@ -101,6 +141,66 @@
 			(type default)
 		)
 		(uuid "81a0e1c2-2d1b-4eeb-a620-915291fed3cd")
+	)
+	(wire
+		(pts
+			(xy 176.53 74.93) (xy 191.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cc01b0-79e2-4645-9d23-914d098afe50")
+	)
+	(wire
+		(pts
+			(xy 176.53 74.93) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878fbde0-1b5f-47fd-8e01-4cdfd4544fb0")
+	)
+	(wire
+		(pts
+			(xy 163.83 90.17) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab1e785-d401-4c4a-b3b7-e9ecb82fae9d")
+	)
+	(wire
+		(pts
+			(xy 179.07 72.39) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dee2e6e-5a6c-420d-b7dd-555c87dcdc09")
+	)
+	(wire
+		(pts
+			(xy 179.07 72.39) (xy 191.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e27698-13ba-4b77-983c-e2490b58c0a2")
+	)
+	(wire
+		(pts
+			(xy 176.53 49.53) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc273e30-a9d2-409e-a2d5-30e2e11aff19")
 	)
 	(wire
 		(pts
@@ -163,8 +263,8 @@
 		(uuid "f9373b7d-972b-4295-adb6-601514370ce4")
 	)
 	(rectangle
-		(start 19.05 148.59)
-		(end 99.06 191.77)
+		(start 20.32 147.32)
+		(end 100.33 190.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -176,7 +276,7 @@
 	)
 	(text "PCB Mounting Points"
 		(exclude_from_sim no)
-		(at 19.05 147.32 0)
+		(at 20.32 146.05 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -413,46 +513,8 @@
 		)
 	)
 	(sheet
-		(at 191.77 69.85)
-		(size 38.1 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "882263d2-c567-495a-aed9-a994d90ebd84")
-		(property "Sheetname" "Inputs"
-			(at 191.77 68.5034 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Inputs.kicad_sch"
-			(at 191.77 95.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 125.73 27.94)
-		(size 38.1 107.95)
+		(size 38.1 109.22)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -472,7 +534,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 125.73 136.4746 0)
+			(at 125.73 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -630,90 +692,188 @@
 			)
 			(uuid "bfe9cfeb-b8b7-4177-820b-b3670d0d3a9e")
 		)
-		(pin "MCU_RXD0" input
-			(at 163.83 125.73 0)
+		(pin "MCU_BUZZER" output
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6aa4a95f-784e-4b22-baa7-f2bf9bdf1400")
+			(uuid "34118d64-c499-428f-a278-d0a79364ef1f")
 		)
-		(pin "MCU_TXD0" input
-			(at 163.83 128.27 0)
+		(pin "MCU_FAN_PWM" output
+			(at 163.83 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "03bddae2-cff5-4536-836d-692747d6106a")
+			(uuid "1c48cbd8-d1a3-4ac3-a8da-d93fc62a4ad8")
 		)
-		(pin "MCU_NEOPIXEL" input
-			(at 163.83 38.1 0)
+		(pin "MCU_NEOPIXEL" output
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "37012761-5e3f-49a5-bdaa-57716c2bca05")
-		)
-		(pin "MCU_BUZZER" input
-			(at 163.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9da4ed84-751d-4445-ad54-bca372b4da6f")
+			(uuid "fb23270b-986c-4af6-8770-81e0351941a9")
 		)
 		(pin "MCU_BUTTON" input
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b373577f-4c58-487d-83dc-e2ecec277f02")
+			(uuid "7219246b-fae3-4244-ac8a-3df0483bdbd5")
 		)
-		(pin "MCU_SCL" input
-			(at 163.83 120.65 0)
+		(pin "MCU_SDA" bidirectional
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fff1a76c-7bcd-421a-8a9c-4445f9388a44")
+			(uuid "9422adb4-48f2-4ab3-92eb-ceb213ca3093")
 		)
-		(pin "MCU_SDA" input
-			(at 163.83 118.11 0)
+		(pin "MCU_SCL" bidirectional
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "73255047-ed2b-45fc-86da-2e1fc3f26231")
+			(uuid "831e2bff-e054-46e7-8c06-da4c5154d0aa")
 		)
-		(pin "MCU_FAN_PWM" input
-			(at 163.83 43.18 0)
+		(pin "MCU_RXD0" input
+			(at 163.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cced8490-d6f7-4133-8ed0-f427f6b6573d")
+			(uuid "6b6758b5-a19e-4d16-b1d5-906f4aac2c44")
+		)
+		(pin "MCU_TXD0" output
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9912ec84-3cc2-4948-b032-a0b6fced95f6")
 		)
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 69.85)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abd7394f-2ce8-4b0e-8de0-533be3378190")
+		(property "Sheetname" "Peripherals"
+			(at 191.77 68.5034 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 191.77 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU_BUZZER" input
+			(at 191.77 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "308c3453-3d38-4aa5-8fdf-3fb5ff3055fd")
+		)
+		(pin "MCU_FAN_PWM" input
+			(at 191.77 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f8b5e96-4df9-49f4-a687-e80bf8e649c1")
+		)
+		(pin "MCU_NEOPIXEL" input
+			(at 191.77 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61b46279-3256-446e-a671-795d3e78a70c")
+		)
+		(pin "MCU_SCL" bidirectional
+			(at 191.77 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "00712d26-13fe-448a-88ca-7650729fa8b8")
+		)
+		(pin "MCU_SDA" bidirectional
+			(at 191.77 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1e1e768e-3221-420b-94fa-458541300ac1")
+		)
+		(pin "MCU_BUTTON" output
+			(at 191.77 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9262818-da35-4ea9-9a51-2ab531ea6ccd")
+		)
+		(instances
+			(project "LizardBot1_ControlBoard_v1"
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
+					(page "6")
 				)
 			)
 		)
@@ -729,8 +889,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "abd7394f-2ce8-4b0e-8de0-533be3378190")
-		(property "Sheetname" "Outputs"
+		(uuid "b54c643a-f43a-4c60-9b57-2b970e6e7da7")
+		(property "Sheetname" "Communication_Interfaces"
 			(at 191.77 26.5934 0)
 			(effects
 				(font
@@ -739,46 +899,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Outputs.kicad_sch"
-			(at 191.77 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 191.77 110.49)
-		(size 38.1 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b54c643a-f43a-4c60-9b57-2b970e6e7da7")
-		(property "Sheetname" "Communication_Interfaces"
-			(at 191.77 109.1434 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Sheetfile" "Communication_Interfaces.kicad_sch"
-			(at 191.77 136.4746 0)
+			(at 191.77 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

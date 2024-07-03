@@ -840,8 +840,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -12.7 25.4 0)
+			(property "Value" "DRV8874"
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -885,14 +885,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "DRV8874"
-					(at 0 13.97 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -4060,8 +4052,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 86.36 38.1 0)
+		(property "Value" "DRV8874"
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,8 +5467,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 215.9 38.1 0)
+		(property "Value" "DRV8874"
+			(at 215.9 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
