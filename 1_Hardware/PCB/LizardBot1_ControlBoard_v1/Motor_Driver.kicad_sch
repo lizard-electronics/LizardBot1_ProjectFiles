@@ -4157,21 +4157,19 @@
 		(dnp no)
 		(uuid "46e90b5f-e6e2-4d53-bb12-7d86456cb292")
 		(property "Reference" "J402"
-			(at 259.08 137.16 0)
+			(at 260.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "JST-PH-6-F"
-			(at 259.08 154.94 0)
+		(property "Value" "JST-PH-6-Male"
+			(at 260.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5911,21 +5909,19 @@
 		(dnp no)
 		(uuid "dd6670ff-c574-439d-9290-590b7f819d62")
 		(property "Reference" "J401"
-			(at 259.08 106.68 0)
+			(at 260.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "JST-PH-6-F"
-			(at 259.08 124.46 0)
+		(property "Value" "JST-PH-6-Male"
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
