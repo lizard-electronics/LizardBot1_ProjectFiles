@@ -5,7 +5,7 @@
 	(uuid "07595c21-634c-4b2b-8a5c-aa74e889a21f")
 	(paper "A4")
 	(title_block
-		(title "LizardBot 1 Control Board: Outputs")
+		(title "LizardBot 1 Control Board: Peripherals")
 		(date "2024-07-03")
 		(rev "v1.0.0")
 		(company "Lizard Electronics")
@@ -2879,108 +2879,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 63.5 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cdd14a5-270a-4b24-a3b0-1853d71cbc86")
 	)
 	(junction
 		(at 191.77 64.77)
@@ -3067,12 +2965,6 @@
 		(uuid "81c1db8f-4619-44c6-93c6-9fccfe02e905")
 	)
 	(junction
-		(at 101.6 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e73e38f-53ef-4386-a202-71b15cf580ee")
-	)
-	(junction
 		(at 154.94 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3097,12 +2989,6 @@
 		(uuid "b64da177-f1da-4bc5-8c70-be4bcf0bfe40")
 	)
 	(junction
-		(at 110.49 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb66633a-73db-40d2-b117-a38b3623769e")
-	)
-	(junction
 		(at 127 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3113,6 +2999,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da9c3172-b48e-4efc-af0a-664dc8d212e7")
+	)
+	(junction
+		(at 101.6 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd4399b1-ccbc-4254-933b-f14d7c2d0c82")
+	)
+	(junction
+		(at 110.49 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e10515e9-4237-4a1f-a7b5-1b9f8444b825")
 	)
 	(junction
 		(at 143.51 41.91)
@@ -3198,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 44.45 128.27)
+			(xy 26.67 128.27) (xy 44.45 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3235,16 +3133,6 @@
 			(type default)
 		)
 		(uuid "206a5bcc-d5b8-44f4-a3b3-c96cf8db7ea8")
-	)
-	(wire
-		(pts
-			(xy 63.5 46.99) (xy 63.5 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "216ca3c1-6aab-4a5e-bce3-133757b327d7")
 	)
 	(wire
 		(pts
@@ -3438,16 +3326,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 63.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d5c4151-37a8-4ab8-9fb0-5e4a727db267")
-	)
-	(wire
-		(pts
 			(xy 143.51 53.34) (xy 154.94 53.34)
 		)
 		(stroke
@@ -3638,6 +3516,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 53.34) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807177a3-e27a-450e-baf3-91bd85b853f3")
+	)
+	(wire
+		(pts
 			(xy 110.49 43.18) (xy 110.49 41.91)
 		)
 		(stroke
@@ -3645,26 +3533,6 @@
 			(type default)
 		)
 		(uuid "82e1f8e1-9b81-4ad4-be05-b139b230ea5a")
-	)
-	(wire
-		(pts
-			(xy 96.52 53.34) (xy 110.49 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "854739bb-80b5-4f60-9c38-42bf3c77f784")
-	)
-	(wire
-		(pts
-			(xy 72.39 45.72) (xy 72.39 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3ef494-e1a7-4751-b20f-6f8b081998dd")
 	)
 	(wire
 		(pts
@@ -3708,7 +3576,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 180.34) (xy 59.69 180.34)
+			(xy 41.91 180.34) (xy 59.69 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3818,6 +3686,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 172.72) (xy 143.51 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a171958f-361d-4903-9c67-b8eb52d31764")
+	)
+	(wire
+		(pts
 			(xy 232.41 123.19) (xy 232.41 129.54)
 		)
 		(stroke
@@ -3835,6 +3713,16 @@
 			(type default)
 		)
 		(uuid "a4023710-634f-4db0-a19a-59e6b4dfe507")
+	)
+	(wire
+		(pts
+			(xy 90.17 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56da59e-5d38-4d0b-994f-2100c7fd2d0a")
 	)
 	(wire
 		(pts
@@ -3908,23 +3796,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 123.19) (xy 252.73 123.19)
+			(xy 247.65 123.19) (xy 264.16 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4aea6a4-ce26-4822-b54f-fb90ecbaa6ac")
-	)
-	(wire
-		(pts
-			(xy 96.52 66.04) (xy 101.6 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83e01d3-e659-4461-8649-560cc0ae0b8e")
 	)
 	(wire
 		(pts
@@ -3968,6 +3846,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 182.88) (xy 143.51 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9ca1f7-f587-4309-8ef0-c80b87981767")
+	)
+	(wire
+		(pts
 			(xy 212.09 48.26) (xy 222.25 48.26)
 		)
 		(stroke
@@ -3988,6 +3876,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 177.8) (xy 143.51 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c386c782-92f6-419e-a817-104bb1fc0cf5")
+	)
+	(wire
+		(pts
 			(xy 110.49 53.34) (xy 121.92 53.34)
 		)
 		(stroke
@@ -3998,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 128.27) (xy 132.08 128.27)
+			(xy 114.3 128.27) (xy 132.08 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4088,6 +3986,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 185.42) (xy 143.51 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70501ac-7865-40d8-87f4-ca5d875a9965")
+	)
+	(wire
+		(pts
 			(xy 57.15 110.49) (xy 57.15 109.22)
 		)
 		(stroke
@@ -4138,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 180.34) (xy 143.51 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ca1062-f941-47db-aa11-151aa2f110fd")
+	)
+	(wire
+		(pts
 			(xy 57.15 49.53) (xy 63.5 49.53)
 		)
 		(stroke
@@ -4168,7 +4086,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 45.72) (xy 63.5 46.99)
+			(xy 63.5 45.72) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4245,6 +4163,16 @@
 			(type default)
 		)
 		(uuid "f3f325bd-9be9-40f7-81ae-d5b1ea29e0a1")
+	)
+	(wire
+		(pts
+			(xy 124.46 175.26) (xy 143.51 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f497d1b5-b230-4164-839f-0b03ba955660")
 	)
 	(wire
 		(pts
@@ -4403,6 +4331,17 @@
 		)
 		(uuid "0d7eaa60-95cf-4e22-9b56-d1dbff856a74")
 	)
+	(label "MCU_FAN_PWM"
+		(at 114.3 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19069939-cf07-413e-b07a-bc367be51669")
+	)
 	(label "IMU_ADR"
 		(at 203.2 64.77 180)
 		(fields_autoplaced yes)
@@ -4413,6 +4352,17 @@
 			(justify right bottom)
 		)
 		(uuid "27d7bb73-9d4c-43fb-898b-78b040a6068c")
+	)
+	(label "MCU_SDA"
+		(at 90.17 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2aad8df3-8629-4327-8a54-9b7e4fd0b0cb")
 	)
 	(label "BUZZER_5V"
 		(at 81.28 111.76 180)
@@ -4436,6 +4386,17 @@
 		)
 		(uuid "4fd54615-2860-443f-9065-4d93fa758bb3")
 	)
+	(label "MCU_NEOPIXEL"
+		(at 41.91 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52678a1d-90e6-41fd-97ca-dbc37cd4bff0")
+	)
 	(label "BUZZER_GND"
 		(at 81.28 116.84 180)
 		(fields_autoplaced yes)
@@ -4446,6 +4407,17 @@
 			(justify right bottom)
 		)
 		(uuid "676722f2-0961-4fe6-bfdc-5309ec4e7451")
+	)
+	(label "MCU_BUZZER"
+		(at 124.46 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68a4acff-60c2-4e65-b1b2-875958d99583")
 	)
 	(label "IMU_ADR"
 		(at 212.09 45.72 0)
@@ -4480,6 +4452,61 @@
 		)
 		(uuid "7f5fce6c-9ee7-4b67-9b81-a7d998919ab4")
 	)
+	(label "MCU_SDA"
+		(at 124.46 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "998ebe2e-0214-433c-8b96-2d2316aa3890")
+	)
+	(label "MCU_BUTTON"
+		(at 264.16 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f277ad5-86d2-45af-a2d5-683a8f657b08")
+	)
+	(label "MCU_FAN_PWM"
+		(at 124.46 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f361350-0257-4c94-9bd3-ab6217bc09bb")
+	)
+	(label "MCU_BUTTON"
+		(at 124.46 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a06383fe-b80c-43a9-928f-9eccd99f632d")
+	)
+	(label "MCU_SCL"
+		(at 90.17 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2c41731-e2ed-49ed-b336-8c013effee40")
+	)
 	(label "FAN_GND"
 		(at 166.37 115.57 180)
 		(fields_autoplaced yes)
@@ -4490,6 +4517,39 @@
 			(justify right bottom)
 		)
 		(uuid "c4f3df2e-c712-45c3-a1dd-2ce3d02898f3")
+	)
+	(label "MCU_SCL"
+		(at 124.46 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc8feb8-9ebd-4848-80d9-04c1ab4ac5a3")
+	)
+	(label "MCU_BUZZER"
+		(at 26.67 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0459f62-e7a9-40d9-b28b-6ee8b53fd644")
+	)
+	(label "MCU_NEOPIXEL"
+		(at 124.46 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9363faa-4bb1-4a41-8392-60a256fb03fe")
 	)
 	(label "FAN_5V"
 		(at 166.37 113.03 180)
@@ -4502,57 +4562,9 @@
 		)
 		(uuid "ee4b8115-6c70-4887-87a6-ed6f0f2a9cde")
 	)
-	(hierarchical_label "MCU_FAN_PWM"
-		(shape input)
-		(at 127 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "478090d8-3b4c-4b1b-85c6-cc1969fece7a")
-	)
-	(hierarchical_label "MCU_SCL"
-		(shape bidirectional)
-		(at 96.52 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6fd7f8fb-d060-412c-b656-55eee8f76bcf")
-	)
-	(hierarchical_label "MCU_SDA"
-		(shape bidirectional)
-		(at 96.52 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7935b55f-e8d6-4a1d-92fd-0e2422639793")
-	)
 	(hierarchical_label "MCU_BUZZER"
-		(shape input)
-		(at 39.37 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6fdc9f9-559a-4e2f-a284-a6cd81bed66b")
-	)
-	(hierarchical_label "MCU_BUTTON"
 		(shape output)
-		(at 252.73 123.19 0)
+		(at 143.51 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4560,19 +4572,67 @@
 			)
 			(justify left)
 		)
-		(uuid "b50e9bbc-c3c5-43d1-8984-155f46eaf82a")
+		(uuid "0aa3e578-ed7d-4d5a-88d1-a3f64558471b")
 	)
-	(hierarchical_label "MCU_NEOPIXEL"
-		(shape input)
-		(at 55.88 180.34 180)
+	(hierarchical_label "MCU_FAN_PWM"
+		(shape output)
+		(at 143.51 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ddd9925a-7bc0-44bf-a7c9-ac847fdd3190")
+		(uuid "1310cbc8-1ecd-49f5-840a-744827fb81b5")
+	)
+	(hierarchical_label "MCU_SDA"
+		(shape bidirectional)
+		(at 143.51 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d8d9524-dab7-4e93-8574-0e5015e1fa3b")
+	)
+	(hierarchical_label "MCU_NEOPIXEL"
+		(shape output)
+		(at 143.51 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c9bdcfb-99cb-4ad1-8ab2-54f36f73cf2e")
+	)
+	(hierarchical_label "MCU_BUTTON"
+		(shape input)
+		(at 143.51 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d42209e-0d79-44c9-a698-834f8b690b5e")
+	)
+	(hierarchical_label "MCU_SCL"
+		(shape bidirectional)
+		(at 143.51 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b33ffacc-15ae-43f0-af4d-9da2ac1b5582")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5444,72 +5504,6 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/abd7394f-2ce8-4b0e-8de0-533be3378190"
 					(reference "#PWR0519")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 72.39 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45e2ab5a-a47a-4e2d-a4db-4a6051302ed7")
-		(property "Reference" "#FLG0501"
-			(at 72.39 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 72.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49934d69-fecd-4f19-9bc4-a784539f67ed")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/abd7394f-2ce8-4b0e-8de0-533be3378190"
-					(reference "#FLG0501")
 					(unit 1)
 				)
 			)

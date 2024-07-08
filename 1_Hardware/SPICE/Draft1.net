@@ -1,0 +1,15 @@
+* C:\users\manuel\My Documents\LizardBot1_ProjectFiles\1_Hardware\SPICE\Draft1.asc
+R1 N002 0 100K
+V1 N002 0 5
+V2 N001 0 0
+M1 N001 N002 N003 N003 AO6407
+D1 N002 N003 SS24
+C1 N003 0 4.7µ
+.model D D
+.lib C:\users\manuel\Local Settings\Application Data\LTspice\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\manuel\Local Settings\Application Data\LTspice\lib\cmp\standard.mos
+.tran 0 10 0 0.1
+.backanno
+.end

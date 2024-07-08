@@ -741,7 +741,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 52.07) (xy 67.31 52.07)
+			(xy 133.35 186.69) (xy 152.4 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f56529b-a958-439b-9ea0-d9af3fb30219")
+	)
+	(wire
+		(pts
+			(xy 53.34 52.07) (xy 67.31 52.07)
 		)
 		(stroke
 			(width 0)
@@ -758,16 +768,6 @@
 			(type default)
 		)
 		(uuid "1cb8cde3-0933-48a6-8922-ced6ea1efd82")
-	)
-	(wire
-		(pts
-			(xy 154.94 52.07) (xy 158.75 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d02789-5c69-414d-946d-5d945323f1c6")
 	)
 	(wire
 		(pts
@@ -791,7 +791,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 57.15) (xy 142.24 57.15)
+			(xy 125.73 57.15) (xy 142.24 57.15)
 		)
 		(stroke
 			(width 0)
@@ -801,13 +801,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 54.61) (xy 142.24 54.61)
+			(xy 125.73 54.61) (xy 142.24 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ee4db38-1303-43e5-87a0-fcce875d8d6c")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 171.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c02a74c-6f72-413d-8b15-00fc44769e91")
 	)
 	(wire
 		(pts
@@ -831,6 +841,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 52.07) (xy 171.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ba4245-2d92-4697-a66b-ef25cfb43c9a")
+	)
+	(wire
+		(pts
+			(xy 133.35 184.15) (xy 152.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63329854-06c4-4ae4-b040-2f6b65283027")
+	)
+	(wire
+		(pts
 			(xy 44.45 49.53) (xy 44.45 57.15)
 		)
 		(stroke
@@ -838,16 +868,6 @@
 			(type default)
 		)
 		(uuid "66451774-9763-4730-8f0b-4a8465551671")
-	)
-	(wire
-		(pts
-			(xy 154.94 57.15) (xy 176.53 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888556c6-c14d-4859-8461-b70c23209544")
 	)
 	(wire
 		(pts
@@ -859,6 +879,26 @@
 		)
 		(uuid "89bb1334-42f7-46e6-b437-8fdd1bca4e85")
 	)
+	(wire
+		(pts
+			(xy 133.35 179.07) (xy 152.4 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a97a88-5ab2-48d0-bb6c-64e5c3914528")
+	)
+	(wire
+		(pts
+			(xy 133.35 181.61) (xy 152.4 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98227efc-91fa-4869-947e-02ad166e6a1e")
+	)
 	(polyline
 		(pts
 			(xy 148.59 63.5) (xy 148.59 83.82)
@@ -868,6 +908,16 @@
 			(type dash)
 		)
 		(uuid "b0d6fdd8-150c-4c71-a0e0-b80fde7265de")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b463a56f-5302-4ecc-9bf3-8d8ef4154738")
 	)
 	(wire
 		(pts
@@ -901,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 54.61) (xy 67.31 54.61)
+			(xy 53.34 54.61) (xy 67.31 54.61)
 		)
 		(stroke
 			(width 0)
@@ -928,16 +978,6 @@
 			(type dash)
 		)
 		(uuid "d266f838-e643-4d76-a464-f2ff2fd04e80")
-	)
-	(wire
-		(pts
-			(xy 154.94 54.61) (xy 158.75 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8a00174-07fa-4c36-a87a-c16be7d51676")
 	)
 	(rectangle
 		(start 107.95 26.67)
@@ -996,9 +1036,119 @@
 		)
 		(uuid "d6887e02-9939-4726-9e1a-9860f9a9411f")
 	)
+	(label "MCU_SDA"
+		(at 171.45 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00cbc189-c669-4130-8374-6d5d9b6fc3fe")
+	)
+	(label "MCU_SDA"
+		(at 125.73 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27ed14f0-042f-4ff6-9245-edb98cd5e880")
+	)
+	(label "MCU_SCL"
+		(at 125.73 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c150a43-71b2-44ef-8c6d-554b325d2f3c")
+	)
+	(label "MCU_SCL"
+		(at 171.45 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "519ff5e9-e4c0-4ff2-8aa4-50b728f21e9f")
+	)
+	(label "MCU_TXD0"
+		(at 53.34 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65df6b78-a9e0-4f0b-a9f5-8d963369b468")
+	)
+	(label "MCU_TXD0"
+		(at 133.35 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9737664b-4629-4116-81b2-6d91c3484ade")
+	)
+	(label "MCU_SCL"
+		(at 133.35 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3b13947-7709-436b-8d63-18284cded38d")
+	)
+	(label "MCU_RXD0"
+		(at 53.34 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7bb1e9d-e8f3-4d72-aa0f-a8244b907409")
+	)
+	(label "MCU_RXD0"
+		(at 133.35 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db39fc28-1429-48e4-8812-7381eb224637")
+	)
+	(label "MCU_SDA"
+		(at 133.35 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd5fdc05-98be-43b6-81cf-bb984bdf881d")
+	)
 	(hierarchical_label "MCU_SDA"
 		(shape bidirectional)
-		(at 158.75 52.07 0)
+		(at 152.4 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1006,67 +1156,43 @@
 			)
 			(justify left)
 		)
-		(uuid "30b1e569-e825-4b0f-84fe-e5134a5ca494")
-	)
-	(hierarchical_label "MCU_SCL"
-		(shape bidirectional)
-		(at 158.75 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "937c5a55-e8b6-43f4-a964-7c006c08d977")
-	)
-	(hierarchical_label "MCU_SCL"
-		(shape bidirectional)
-		(at 138.43 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d78a868-33f8-407e-a805-821f3ea5e1fa")
-	)
-	(hierarchical_label "MCU_TXD0"
-		(shape input)
-		(at 63.5 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9380c56-eb02-48da-b9e7-dd0f896cf8df")
+		(uuid "0dc80c43-6b3b-4a1a-8966-144a33c88219")
 	)
 	(hierarchical_label "MCU_RXD0"
-		(shape output)
-		(at 63.5 54.61 180)
+		(shape input)
+		(at 152.4 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "cbba7047-5bfb-4406-9a91-01d5a4ba22c1")
+		(uuid "49703c94-4941-4068-b436-78771edf62a1")
 	)
-	(hierarchical_label "MCU_SDA"
+	(hierarchical_label "MCU_SCL"
 		(shape bidirectional)
-		(at 138.43 54.61 180)
+		(at 152.4 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "da88a77c-1a23-47ac-a4cd-533b6e0aff90")
+		(uuid "afdf0868-6882-490e-97b9-331f6f329684")
+	)
+	(hierarchical_label "MCU_TXD0"
+		(shape output)
+		(at 152.4 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddf1f3a6-a753-4ab5-a8a9-c8c4392fbcda")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
