@@ -199,6 +199,299 @@
 				)
 			)
 		)
+		(symbol "Connector:Screw_Terminal_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -2940,154 +3233,9 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+		(symbol "Switch:SW_SPDT_312"
 			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0) hide)
+				(offset 1) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3099,7 +3247,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
+			(property "Value" "SW_SPDT_312"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -3108,7 +3256,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3134,7 +3282,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3143,7 +3291,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(symbol "SW_SPDT_312_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -3190,7 +3338,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
+			(symbol "SW_SPDT_312_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -3203,24 +3351,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
@@ -3230,7 +3360,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3248,7 +3378,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3256,105 +3386,8 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -3363,25 +3396,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4190,7 +4205,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 134.62) (xy 116.84 134.62)
+			(xy 114.3 135.89) (xy 116.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4227,16 +4242,6 @@
 			(type default)
 		)
 		(uuid "11b7b73e-5583-4c8c-8afb-ba82a28f3bf2")
-	)
-	(wire
-		(pts
-			(xy 86.36 40.64) (xy 90.17 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16cc8a2e-ad4a-4867-ac9a-7ec5d3e0836f")
 	)
 	(wire
 		(pts
@@ -4297,6 +4302,16 @@
 			(type default)
 		)
 		(uuid "1efdc1e6-0890-4973-8468-b7f4cff471d9")
+	)
+	(polyline
+		(pts
+			(xy 90.17 41.91) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0c5a47-f0ab-4ed2-9073-4e0dfaf9fb79")
 	)
 	(wire
 		(pts
@@ -4367,6 +4382,16 @@
 			(type default)
 		)
 		(uuid "2b7a761b-a66f-446f-a07a-2b041526a529")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 64.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c895b41-1ee2-4b2f-ab79-8a5b2441a59a")
 	)
 	(wire
 		(pts
@@ -4480,6 +4505,36 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 36.83) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4187a3dd-1845-4c65-90b4-6df28c624fdd")
+	)
+	(polyline
+		(pts
+			(xy 90.17 43.18) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426701c0-b3a5-4dbc-b5d1-a6233ae8f50b")
+	)
+	(wire
+		(pts
+			(xy 86.36 40.64) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42efbcb9-38e5-4169-9876-3dbb051e6639")
+	)
+	(wire
+		(pts
 			(xy 85.09 182.88) (xy 85.09 180.34)
 		)
 		(stroke
@@ -4530,6 +4585,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 40.64) (xy 86.36 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab48380-1314-49f5-b54e-385c72f88444")
+	)
+	(wire
+		(pts
 			(xy 180.34 118.11) (xy 180.34 121.92)
 		)
 		(stroke
@@ -4568,6 +4633,16 @@
 		)
 		(uuid "4e044d58-9ea1-4c06-aa11-964df3723f12")
 	)
+	(polyline
+		(pts
+			(xy 87.63 43.18) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eba7b50-5d50-47da-b524-4b5a1e46ca7a")
+	)
 	(wire
 		(pts
 			(xy 105.41 110.49) (xy 105.41 115.57)
@@ -4587,6 +4662,16 @@
 			(type default)
 		)
 		(uuid "511e8c26-d257-4dfd-b64c-e06946bc8f5d")
+	)
+	(wire
+		(pts
+			(xy 93.98 40.64) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e773ea-5f51-4b7e-87b9-28244a902c06")
 	)
 	(wire
 		(pts
@@ -4610,16 +4695,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560d1abb-a668-4ca3-87ba-c634c606ac54")
-	)
-	(wire
-		(pts
 			(xy 53.34 115.57) (xy 64.77 115.57)
 		)
 		(stroke
@@ -4627,16 +4702,6 @@
 			(type default)
 		)
 		(uuid "569ab903-c2cd-410f-ad96-84876ad56b66")
-	)
-	(wire
-		(pts
-			(xy 100.33 40.64) (xy 107.95 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574c49a1-aa95-4d05-9461-88be1ac7a8f9")
 	)
 	(wire
 		(pts
@@ -4680,6 +4745,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 39.37) (xy 91.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66acd463-13d6-4866-8418-57edd3a7bfff")
+	)
+	(polyline
+		(pts
+			(xy 95.25 41.91) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685895b7-02e6-4d04-ab27-99ba90f6b1fc")
+	)
+	(wire
+		(pts
 			(xy 255.27 109.22) (xy 254 109.22)
 		)
 		(stroke
@@ -4700,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 134.62) (xy 116.84 125.73)
+			(xy 116.84 135.89) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4747,16 +4832,6 @@
 			(type default)
 		)
 		(uuid "756175a1-0e8d-49e0-a57b-8752ae4bc18f")
-	)
-	(wire
-		(pts
-			(xy 62.23 36.83) (xy 62.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7661f253-b9a7-46b2-b685-bd36b9f9475f")
 	)
 	(wire
 		(pts
@@ -4920,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 134.62) (xy 109.22 134.62)
+			(xy 106.68 135.89) (xy 109.22 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4947,6 +5022,16 @@
 			(type default)
 		)
 		(uuid "8f075a10-09b7-4217-921c-dd0201c85abc")
+	)
+	(polyline
+		(pts
+			(xy 85.09 43.18) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe4a2c7-6aa9-473a-8d84-4df1ffa95776")
 	)
 	(wire
 		(pts
@@ -4987,6 +5072,16 @@
 			(type default)
 		)
 		(uuid "954f3cc6-c21e-43a5-9ca4-bcd39e28e0a1")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 91.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c33e1b5-26ff-4957-8c88-44513f3008f5")
 	)
 	(wire
 		(pts
@@ -5078,6 +5173,16 @@
 		)
 		(uuid "a96ad4c8-a30d-4d55-9734-01e1771e9457")
 	)
+	(polyline
+		(pts
+			(xy 92.71 43.18) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdeae9a-e0e7-4097-a462-66ce39d44277")
+	)
 	(wire
 		(pts
 			(xy 191.77 121.92) (xy 191.77 118.11)
@@ -5100,13 +5205,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 125.73) (xy 106.68 134.62)
+			(xy 106.68 125.73) (xy 106.68 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b137d5c1-43e3-4560-8cb7-ceae0c160b11")
+	)
+	(wire
+		(pts
+			(xy 88.9 39.37) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b724cbe1-6030-4a1d-b2ad-20ecebb1ac36")
 	)
 	(wire
 		(pts
@@ -5278,6 +5393,16 @@
 		)
 		(uuid "d304cdab-1ddd-4319-93f0-847784bdf0fa")
 	)
+	(polyline
+		(pts
+			(xy 85.09 41.91) (xy 85.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55ec5d5-e48d-4156-9671-788d2dbddc43")
+	)
 	(wire
 		(pts
 			(xy 158.75 57.15) (xy 158.75 59.69)
@@ -5347,6 +5472,16 @@
 			(type default)
 		)
 		(uuid "ded6aa1c-e6a1-41ed-864d-e06653051791")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df444f0a-01a2-4c76-b031-892e931bd22e")
 	)
 	(wire
 		(pts
@@ -5458,15 +5593,15 @@
 		)
 		(uuid "eb2f2d06-8e0c-4216-ade8-26946310e015")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 62.23 40.64) (xy 64.77 40.64)
+			(xy 90.17 41.91) (xy 90.17 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebe2d97e-9780-48ec-95e6-714450de8ff3")
+		(uuid "ed245285-5049-41e0-a002-16fd826c9c4e")
 	)
 	(wire
 		(pts
@@ -5633,7 +5768,7 @@
 	)
 	(text "Battery\nConnector"
 		(exclude_from_sim no)
-		(at 31.75 38.1 0)
+		(at 31.75 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5662,7 +5797,7 @@
 		)
 		(uuid "3c5d74c4-7b05-467f-9103-2c5ec897ece7")
 	)
-	(text "(*) Check for RPi4 USB-C issue"
+	(text "(*) Check for RPi4 USB-C issue \nif power deliver fails"
 		(exclude_from_sim no)
 		(at 224.79 149.86 0)
 		(effects
@@ -5695,9 +5830,9 @@
 		)
 		(uuid "50ade63b-726e-4974-860a-ff83db906d84")
 	)
-	(text "Terminal\nBlock"
+	(text "Pluggabel Terminal\nBlock"
 		(exclude_from_sim no)
-		(at 31.75 60.96 0)
+		(at 31.75 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5800,7 +5935,7 @@
 		)
 		(uuid "90d2d722-fdde-44ba-815b-10e2273cf528")
 	)
-	(text "(!) Needs Final Review (!)\nStep-down circuitry from 5V to 3.3V.\nValues defined according to AP2112 datasheet (600mA max)."
+	(text "Step-down circuitry from 5V to 3.3V.\nValues defined according to AP2112 datasheet (600mA max)."
 		(exclude_from_sim no)
 		(at 180.34 78.74 0)
 		(effects
@@ -5822,7 +5957,7 @@
 		)
 		(uuid "9d51c5c1-4c9d-415d-88e1-d0c005c8ad7d")
 	)
-	(text "(!) Review values (!)\nR203 @ 1%\nR204 @ 1%"
+	(text "R203 @ 1%\nR204 @ 1%"
 		(exclude_from_sim no)
 		(at 105.41 147.32 0)
 		(effects
@@ -5835,7 +5970,7 @@
 	)
 	(text "Main\nSwitch"
 		(exclude_from_sim no)
-		(at 81.28 46.99 0)
+		(at 87.63 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5888,7 +6023,7 @@
 	)
 	(text "Emergency\nSwitch"
 		(exclude_from_sim no)
-		(at 95.25 46.99 0)
+		(at 92.71 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5905,6 +6040,17 @@
 			)
 		)
 		(uuid "fc3da18b-3d15-4d6c-a7d7-042c7407db16")
+	)
+	(label "E_SWITCH"
+		(at 107.95 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fdf8c8a-977c-4f51-a95c-b9ed2febe351")
 	)
 	(label "BUCK_5V"
 		(at 116.84 115.57 0)
@@ -6027,6 +6173,17 @@
 		)
 		(uuid "e5092fb6-d4c6-41f7-bb7c-0234d34c5860")
 	)
+	(label "M_SWITCH"
+		(at 72.39 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7063179-6d44-4736-aef5-17f2d3d4f16f")
+	)
 	(hierarchical_label "MCU_BAT_STATUS"
 		(shape output)
 		(at 146.05 182.88 0)
@@ -6057,7 +6214,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Green"
 			(at 160.02 55.88 90)
 			(effects
 				(font
@@ -6066,7 +6223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 158.75 54.61 90)
 			(effects
 				(font
@@ -6201,7 +6358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.65 50.8 0)
 			(effects
 				(font
@@ -6270,7 +6427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 25.4 119.38 0)
 			(effects
 				(font
@@ -6405,7 +6562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 35.56 119.38 0)
 			(effects
 				(font
@@ -6757,7 +6914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -6883,7 +7040,7 @@
 				)
 			)
 		)
-		(property "Value" "Receptable-5.08-2P"
+		(property "Value" "Receptable-P5.08-2P"
 			(at 31.75 76.2 0)
 			(effects
 				(font
@@ -6891,7 +7048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 31.75 68.58 0)
 			(effects
 				(font
@@ -6951,7 +7108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470"
 			(at 270.51 52.07 0)
 			(effects
 				(font
@@ -6960,7 +7117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 269.24 50.8 0)
 			(effects
 				(font
@@ -7027,7 +7184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 50.8 115.57 0)
 			(effects
 				(font
@@ -7228,7 +7385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 269.24 58.42 90)
 			(effects
 				(font
@@ -7693,7 +7850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -7736,6 +7893,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 88.9 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c8c629-2c0f-4e00-bb69-ecb88e8144b0")
+		(property "Reference" "J205"
+			(at 90.17 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Receptable-P5.08-4P"
+			(at 90.17 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-WJ2EDGR-5-08-4P_C8443.pdf"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4243e098-cace-4cd2-b1a9-b13c8458a2a4")
+		)
+		(pin "2"
+			(uuid "2bc7d8f2-49b7-4a1a-8824-d3ba49af553f")
+		)
+		(pin "4"
+			(uuid "a53e2108-b840-4356-b67d-919c5ea12baa")
+		)
+		(pin "3"
+			(uuid "e6bc5a87-d8e1-4dfd-b01b-e61e0d1b21d1")
+		)
+		(instances
+			(project "LizardBot1_ControlBoard_v1"
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
+					(reference "J205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 43.18 177.8 0)
 		(unit 1)
@@ -7760,7 +7991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 43.18 177.8 0)
 			(effects
 				(font
@@ -7960,7 +8191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 152.4 115.57 0)
 			(effects
 				(font
@@ -8159,7 +8390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.6 110.49 0)
 			(effects
 				(font
@@ -8211,7 +8442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4c579b-e692-4094-a349-552ce1e2d031")
-		(property "Reference" "J206"
+		(property "Reference" "J207"
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -8227,7 +8458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 242.57 114.3 0)
 			(effects
 				(font
@@ -8278,7 +8509,7 @@
 		(instances
 			(project ""
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J206")
+					(reference "J207")
 					(unit 1)
 				)
 			)
@@ -8309,7 +8540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -8475,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.76 125.73 0)
 			(effects
 				(font
@@ -8585,7 +8816,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 134.62 90)
+		(at 111.76 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8593,7 +8824,7 @@
 		(dnp no)
 		(uuid "744abad2-a412-4482-83b3-23c56d3e18a2")
 		(property "Reference" "C205"
-			(at 111.76 132.08 90)
+			(at 111.76 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8601,15 +8832,15 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 111.76 137.16 90)
+			(at 111.76 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 134.62 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,7 +8849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 134.62 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +8858,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 134.62 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 257.81 50.8 0)
 			(effects
 				(font
@@ -8714,77 +8945,6 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
 					(reference "C214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 193.04 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78e33a5f-0863-4db2-addc-01de72c5cd82")
-		(property "Reference" "SW203"
-			(at 193.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 193.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5f6ec5d2-a5dd-416c-9d7c-406e519ce602")
-		)
-		(pin "1"
-			(uuid "22c09b62-7389-4cb0-bd17-57a11436e7df")
-		)
-		(pin "2"
-			(uuid "7a65d091-83dd-4186-9a85-9a9c60b713fd")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "SW203")
 					(unit 1)
 				)
 			)
@@ -8940,7 +9100,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blue"
+		(property "Value" "Green"
 			(at 158.75 128.27 90)
 			(effects
 				(font
@@ -8949,7 +9109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 157.48 127 90)
 			(effects
 				(font
@@ -9018,7 +9178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -9153,7 +9313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 113.03 55.88 0)
 			(effects
 				(font
@@ -9190,6 +9350,77 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
 					(reference "R204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 193.04 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96bca120-f8f7-4f3d-aa6f-27fad5336540")
+		(property "Reference" "SW201"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 193.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2383093d-f3ee-4bcc-98e4-aec2e5226939")
+		)
+		(pin "1"
+			(uuid "eff10fae-0a2c-444f-9b43-e5a4202fcff4")
+		)
+		(pin "3"
+			(uuid "6517f91d-7a10-4603-9a5f-c43bc80956a5")
+		)
+		(instances
+			(project "LizardBot1_ControlBoard_v1"
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
+					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -9288,7 +9519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.73 121.92 0)
 			(effects
 				(font
@@ -9325,74 +9556,6 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
 					(reference "C206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 81.28 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b75ee97-c080-4398-ab2b-29a8f2d51f31")
-		(property "Reference" "SW201"
-			(at 81.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 81.28 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b7aa056-8b75-47a4-bba3-f4b0958124ef")
-		)
-		(pin "2"
-			(uuid "4e728d51-f8d2-4814-86bd-1961400eda91")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -9489,7 +9652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_519_Inline_P20.60x5.00mm_D1.00mm_Horizontal"
 			(at 68.58 42.418 90)
 			(effects
 				(font
@@ -9557,7 +9720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -9626,7 +9789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 223.52 52.07 0)
 			(effects
 				(font
@@ -9677,7 +9840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7e0d3a9-5327-4ba7-b973-036972889189")
-		(property "Reference" "J205"
+		(property "Reference" "J206"
 			(at 99.06 182.88 0)
 			(effects
 				(font
@@ -9693,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 99.06 177.8 0)
 			(effects
 				(font
@@ -9729,7 +9892,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J205")
+					(reference "J206")
 					(unit 1)
 				)
 			)
@@ -9760,7 +9923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMP_DO-220AA"
 			(at 182.88 45.72 90)
 			(effects
 				(font
@@ -9820,7 +9983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 158.75 121.92 0)
 			(effects
 				(font
@@ -9829,7 +9992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 157.48 120.65 0)
 			(effects
 				(font
@@ -9898,7 +10061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 180.34 111.76 0)
 			(effects
 				(font
@@ -10097,7 +10260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -10106,7 +10269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pt.mouser.com/datasheet/2/54/BOURNS_SRP7028AA-2064300.pdf"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -10298,7 +10461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.16 46.99 0)
 			(effects
 				(font
@@ -10424,7 +10587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 160.02 48.26 0)
 			(effects
 				(font
@@ -10433,7 +10596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 158.75 46.99 0)
 			(effects
 				(font
@@ -10500,7 +10663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 274.32 107.95 0)
 			(effects
 				(font
@@ -10570,7 +10733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 200.66 50.8 0)
 			(effects
 				(font
@@ -10706,7 +10869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 120.65 45.72 0)
 			(effects
 				(font
@@ -10715,7 +10878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pt.mouser.com/datasheet/2/115/DIOD_S_A0004048695_1-2542541.pdf"
 			(at 120.65 45.72 0)
 			(effects
 				(font
@@ -10841,7 +11004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 180.34 124.46 0)
 			(effects
 				(font
@@ -11093,74 +11256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 95.25 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1c002ce-7e66-48df-8b3e-9b4c6cf7beb0")
-		(property "Reference" "SW202"
-			(at 95.25 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06cf701a-3391-4588-93dd-2a09a4a61d32")
-		)
-		(pin "2"
-			(uuid "a3c1216f-0cfa-4b59-801c-89cc436535fe")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "SW202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 262.89 116.84 0)
 		(unit 1)
@@ -11187,7 +11282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 262.89 116.84 0)
 			(effects
 				(font
@@ -11257,7 +11352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 147.32 46.99 0)
 			(effects
 				(font
@@ -11392,7 +11487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 210.82 50.8 0)
 			(effects
 				(font
@@ -11591,7 +11686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 71.12 177.8 0)
 			(effects
 				(font
@@ -11726,7 +11821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.77 124.46 0)
 			(effects
 				(font
@@ -12059,7 +12154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 125.73 0)
 			(effects
 				(font

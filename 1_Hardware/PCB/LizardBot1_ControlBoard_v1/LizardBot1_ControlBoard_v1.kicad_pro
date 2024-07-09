@@ -27,10 +27,16 @@
     "erc_exclusions": [
       "lib_symbol_issues|1701800|584200|a2fc3361-9796-426c-b606-b7fa86c7ed78|00000000-0000-0000-0000-000000000000|||",
       "multiple_net_names|647700|1104900|0ac64db2-940d-4a1d-9441-760c9e6c8c4b|49b8722f-2059-4ef0-94ed-f8a8e43ec50d|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d",
+      "multiple_net_names|647700|1104900|f583e2ae-988e-4352-84d3-3c114311920a|49b8722f-2059-4ef0-94ed-f8a8e43ec50d|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d",
       "multiple_net_names|812800|1117600|0df7b1ab-fb77-4cc4-ae34-4ba7081d0e6a|302443fd-83b3-4532-91e5-6f3568626cec|/1a674a4d-d877-4d7a-ad57-e0a054705c31/abd7394f-2ce8-4b0e-8de0-533be3378190|/1a674a4d-d877-4d7a-ad57-e0a054705c31/abd7394f-2ce8-4b0e-8de0-533be3378190|/1a674a4d-d877-4d7a-ad57-e0a054705c31/abd7394f-2ce8-4b0e-8de0-533be3378190",
       "multiple_net_names|863600|736600|f0e30c91-c3d6-4487-8fc3-15d7f424b19d|3b424ff2-73d5-47c3-a526-935a556691d3|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156",
+      "multiple_net_names|863600|736600|f0e30c91-c3d6-4487-8fc3-15d7f424b19d|f8de88f2-1333-40e6-ab89-25072dc16968|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156",
+      "multiple_net_names|863600|736600|f9ba167f-07c3-40cf-8f33-729313dd17f8|3b424ff2-73d5-47c3-a526-935a556691d3|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156",
+      "pin_to_pin|266700|1016000|1453a989-d39e-4ac0-841b-b9cca2c337bb|b2f61fc2-99c5-4622-ab09-39f30962878f|/1a674a4d-d877-4d7a-ad57-e0a054705c31|/1a674a4d-d877-4d7a-ad57-e0a054705c31|/1a674a4d-d877-4d7a-ad57-e0a054705c31/abd7394f-2ce8-4b0e-8de0-533be3378190",
+      "pin_to_pin|266700|838200|9133ea77-da8a-44ba-9cc5-5afe3f8a4e36|fcf6e514-44de-4de4-aae3-4f3d82f8c368|/1a674a4d-d877-4d7a-ad57-e0a054705c31|/1a674a4d-d877-4d7a-ad57-e0a054705c31|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d",
       "power_pin_not_driven|1016000|609600|1f438351-0903-4ad1-9367-f1cd511f293e|00000000-0000-0000-0000-000000000000|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|",
       "power_pin_not_driven|1016000|635000|bf20bf5b-dc44-41a9-a8e8-3f3861a4881c|00000000-0000-0000-0000-000000000000|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|",
+      "power_pin_not_driven|2311400|431800|52ecdcef-5d9f-491e-913b-66c401b53f0b|00000000-0000-0000-0000-000000000000|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d|/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d|",
       "power_pin_not_driven|2311400|609600|f4fa3f22-55bd-4f95-9497-6cfd4f2df015|00000000-0000-0000-0000-000000000000|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|",
       "power_pin_not_driven|2311400|635000|21714930-af37-49df-a319-682c2fe6853d|00000000-0000-0000-0000-000000000000|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|/1a674a4d-d877-4d7a-ad57-e0a054705c31/67f0cee1-d2bf-46b2-8130-c5f2ed8ff156|"
     ],
@@ -299,7 +305,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "../../../4_Docs/LizardBot1_ControlBoard_BOMExport_v1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -360,6 +366,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
