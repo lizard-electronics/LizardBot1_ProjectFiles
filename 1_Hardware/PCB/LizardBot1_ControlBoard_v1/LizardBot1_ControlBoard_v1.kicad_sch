@@ -1671,17 +1671,6 @@
 		)
 		(uuid "7c32fad0-c91d-4c74-a4df-9fd7bbc9734f")
 	)
-	(text "(!) TODO (!)\nDONE 1. Hierarchical labels separated from labels\nDONE 2. Power flags & test points in root page\nDONE 3. Choose polyfuse and fuse components\nDONE 4. Review LED colors and resistors\n5. Label undefined nets"
-		(exclude_from_sim no)
-		(at 177.8 161.29 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-			(justify left bottom)
-		)
-		(uuid "83f8af50-69d8-4c7e-880f-34f6920360fe")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 76.2 175.26 0)
