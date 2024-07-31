@@ -114,6 +114,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -1119,16 +1198,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 177.8) (xy 76.2 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18841fbb-f3d4-4da4-a19b-6c2309598a64")
-	)
-	(wire
-		(pts
 			(xy 21.59 113.03) (xy 21.59 118.11)
 		)
 		(stroke
@@ -1136,16 +1205,6 @@
 			(type default)
 		)
 		(uuid "1ab3057e-c369-4a52-ad4b-e5ba69edb87d")
-	)
-	(wire
-		(pts
-			(xy 99.06 78.74) (xy 125.73 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e6191b3-53d5-4ca9-840a-187903db633d")
 	)
 	(wire
 		(pts
@@ -1369,16 +1428,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 158.75) (xy 76.2 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "869b0d06-fdb2-4ede-93df-8459ae90216b")
-	)
-	(wire
-		(pts
 			(xy 176.53 74.93) (xy 191.77 74.93)
 		)
 		(stroke
@@ -1505,7 +1554,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c403fe51-827f-44cd-94f7-1a387cce4b19")
+		(uuid "c0be56e3-2745-428a-8699-fc460ea8d62a")
 	)
 	(wire
 		(pts
@@ -1647,6 +1696,16 @@
 		)
 		(uuid "f9373b7d-972b-4295-adb6-601514370ce4")
 	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a89892-d3a6-44e1-8e14-9102f575cd29")
+	)
 	(rectangle
 		(start 20.32 147.32)
 		(end 99.06 190.5)
@@ -1659,7 +1718,7 @@
 		)
 		(uuid 1a0a2d8b-59fc-4def-bc15-bb353d1445a9)
 	)
-	(text "PCB Mounting Points"
+	(text "PCB Mounting Points & Fiducials"
 		(exclude_from_sim no)
 		(at 20.32 146.05 0)
 		(effects
@@ -1670,73 +1729,6 @@
 			(justify left bottom)
 		)
 		(uuid "7c32fad0-c91d-4c74-a4df-9fd7bbc9734f")
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 175.26 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25c6df59-21cf-44d1-8b26-8bbb600947f6")
-		(property "Reference" "H106"
-			(at 78.74 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 78.74 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abc4e1f1-21be-4765-8463-dca991b0f3bf")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(reference "H106")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -2139,73 +2131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 156.21 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4353fa42-d1ed-4e3d-aebc-fe885df654c5")
-		(property "Reference" "H105"
-			(at 78.74 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 78.74 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 76.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 76.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "502fdd30-1ea0-47b3-b5a7-2af06a58279a")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(reference "H105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 21.59 63.5 0)
 		(unit 1)
@@ -2405,72 +2330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f48ce44-5f1e-4768-8340-4d3911aeebaf")
-		(property "Reference" "#PWR0111"
-			(at 76.2 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc1df6ee-448d-4f2d-86e5-fa06c61fbe56")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 21.59 27.94 0)
 		(unit 1)
@@ -2608,7 +2467,7 @@
 		(at 25.4 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2675,7 +2534,7 @@
 		(at 25.4 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2804,11 +2663,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 82.55 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8545f6cb-69a8-4973-9fbc-5776f5b07471")
+		(property "Reference" "FID103"
+			(at 85.09 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 85.09 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 82.55 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 82.55 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LizardBot1_ControlBoard_v1"
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
+					(reference "FID103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 25.4 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2941,7 +2864,7 @@
 		(at 25.4 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2998,6 +2921,70 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
 					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 82.55 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa366f0a-9f06-44bc-b8e1-fa274f0b9cb4")
+		(property "Reference" "FID102"
+			(at 85.09 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 85.09 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LizardBot1_ControlBoard_v1"
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
+					(reference "FID102")
 					(unit 1)
 				)
 			)
@@ -3074,7 +3061,7 @@
 		(at 25.4 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3208,7 +3195,7 @@
 		(at 25.4 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3470,72 +3457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e432b1a4-2e0e-4930-8a98-0b10762db3d0")
-		(property "Reference" "#PWR0112"
-			(at 76.2 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "701cde6e-d8e5-4036-983b-8ed2b76cd2c6")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 26.67 83.82 270)
 		(unit 1)
@@ -3664,6 +3585,70 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
 					(reference "#FLG0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 82.55 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd5abda6-2622-4ce8-9838-803308c26e50")
+		(property "Reference" "FID101"
+			(at 85.09 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 85.09 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31"
+					(reference "FID101")
 					(unit 1)
 				)
 			)
@@ -3976,7 +3961,7 @@
 			(uuid "b298d1b2-e5aa-4c9b-b108-8b4863f70179")
 		)
 		(pin "DRV2_nSLEEP" output
-			(at 125.73 78.74 180)
+			(at 125.73 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4031,7 @@
 			(uuid "65d28d92-e6c1-41ba-970b-db6ad15b8c4b")
 		)
 		(pin "DRV1_nSLEEP" output
-			(at 125.73 99.06 180)
+			(at 125.73 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)

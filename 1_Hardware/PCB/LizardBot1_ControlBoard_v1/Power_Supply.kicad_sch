@@ -1077,6 +1077,261 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -3294,9 +3549,9 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT_312"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
-				(offset 1) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3308,7 +3563,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT_312"
+			(property "Value" "SW_SPDT"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -3317,7 +3572,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -10.16 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3343,7 +3598,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3352,7 +3607,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_312_0_1"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -3399,7 +3654,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_312_1_1"
+			(symbol "SW_SPDT_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -3412,9 +3667,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3430,9 +3685,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "C"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3448,9 +3703,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4141,6 +4396,12 @@
 		(uuid "a1e1062f-abc9-48a9-8636-28579da546d5")
 	)
 	(junction
+		(at 72.39 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a387bd4b-68dd-403a-88d1-c9996067e28d")
+	)
+	(junction
 		(at 257.81 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4187,6 +4448,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd141c94-5ff6-4a32-9d08-d7802929f687")
+	)
+	(junction
+		(at 72.39 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce3056f2-c3ca-4c35-90dc-2fd3cefe551e")
 	)
 	(junction
 		(at 113.03 50.8)
@@ -4306,6 +4573,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 179.07) (xy 52.07 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b965a9-e8d0-4ba5-b91c-9812fc07dfc3")
+	)
+	(wire
+		(pts
 			(xy 274.32 105.41) (xy 274.32 109.22)
 		)
 		(stroke
@@ -4333,16 +4610,6 @@
 			(type default)
 		)
 		(uuid "1c5ccd63-c25e-4502-93fa-7119734774e1")
-	)
-	(wire
-		(pts
-			(xy 29.21 182.88) (xy 29.21 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dceab54-1c29-48e4-a69d-272cfa7953d4")
 	)
 	(wire
 		(pts
@@ -4426,16 +4693,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 182.88) (xy 57.15 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279fd8b2-249e-4bcd-99e4-41691ba45cf1")
-	)
-	(wire
-		(pts
 			(xy 191.77 118.11) (xy 209.55 118.11)
 		)
 		(stroke
@@ -4456,13 +4713,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 180.34) (xy 66.04 180.34)
+			(xy 34.29 173.99) (xy 34.29 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cc50fba-14af-4628-bb5c-4ebe9b95e118")
+		(uuid "2d6add0c-8f47-4714-b819-2cabd6371b16")
 	)
 	(wire
 		(pts
@@ -4496,16 +4753,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 175.26) (xy 29.21 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3127065a-5a4f-452c-818d-640af6b19b9c")
-	)
-	(wire
-		(pts
 			(xy 45.72 115.57) (xy 48.26 115.57)
 		)
 		(stroke
@@ -4523,16 +4770,6 @@
 			(type default)
 		)
 		(uuid "34615b72-6c54-4fd3-934d-9893f62bcca0")
-	)
-	(wire
-		(pts
-			(xy 85.09 177.8) (xy 93.98 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34772717-a6da-4f3e-8bbc-3973a3a03040")
 	)
 	(wire
 		(pts
@@ -4566,6 +4803,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 179.07) (xy 72.39 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3c3e79-5d7f-4eb5-88ee-cc338e4371b1")
+	)
+	(wire
+		(pts
+			(xy 72.39 179.07) (xy 72.39 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4002b758-61cb-4ac1-9c0f-7c688be28818")
+	)
+	(wire
+		(pts
 			(xy 62.23 36.83) (xy 62.23 40.64)
 		)
 		(stroke
@@ -4596,26 +4853,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 182.88) (xy 85.09 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44251679-c49e-462d-ace4-0497638319a3")
-	)
-	(wire
-		(pts
-			(xy 29.21 180.34) (xy 38.1 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4614435b-ae66-4ffc-9a24-5d3782f2fc59")
-	)
-	(wire
-		(pts
 			(xy 157.48 123.19) (xy 157.48 124.46)
 		)
 		(stroke
@@ -4636,13 +4873,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 180.34) (xy 93.98 180.34)
+			(xy 41.91 173.99) (xy 41.91 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "494770f0-344f-4a7f-a74b-5df628ee69de")
+		(uuid "4a7623a8-23dc-49a1-a5c4-131225066eb0")
 	)
 	(wire
 		(pts
@@ -4663,16 +4900,6 @@
 			(type default)
 		)
 		(uuid "4b878211-d066-40bb-ab27-79fd9d19b921")
-	)
-	(wire
-		(pts
-			(xy 57.15 177.8) (xy 66.04 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1859b6-a143-420e-9de6-a53af3164075")
 	)
 	(wire
 		(pts
@@ -4766,6 +4993,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 181.61) (xy 52.07 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59051f11-d072-46f4-a69d-8ec6759091d8")
+	)
+	(wire
+		(pts
 			(xy 46.99 48.26) (xy 46.99 49.53)
 		)
 		(stroke
@@ -4773,6 +5010,16 @@
 			(type default)
 		)
 		(uuid "5aacebe7-e1a5-43f0-a5c2-7a561fb80340")
+	)
+	(wire
+		(pts
+			(xy 64.77 176.53) (xy 72.39 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd823bd-8721-4f79-b6a8-8ebbd41fef7d")
 	)
 	(wire
 		(pts
@@ -5074,16 +5321,6 @@
 		)
 		(uuid "8e78b7f1-4f81-4a8e-9445-de24355843a8")
 	)
-	(wire
-		(pts
-			(xy 29.21 177.8) (xy 38.1 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f075a10-09b7-4217-921c-dd0201c85abc")
-	)
 	(polyline
 		(pts
 			(xy 85.09 43.18) (xy 90.17 43.18)
@@ -5143,6 +5380,16 @@
 			(type default)
 		)
 		(uuid "9c33e1b5-26ff-4957-8c88-44513f3008f5")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f04a7ba-4945-4f89-85ba-e699ee1281dc")
 	)
 	(wire
 		(pts
@@ -5256,16 +5503,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 175.26) (xy 57.15 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ada5a360-7ea9-4a9c-aa45-4156703c54eb")
-	)
-	(wire
-		(pts
 			(xy 106.68 125.73) (xy 106.68 135.89)
 		)
 		(stroke
@@ -5276,6 +5513,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 176.53) (xy 72.39 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e282d6-5869-45d9-9b29-59d9a4de719a")
+	)
+	(wire
+		(pts
 			(xy 88.9 39.37) (xy 88.9 40.64)
 		)
 		(stroke
@@ -5283,16 +5530,6 @@
 			(type default)
 		)
 		(uuid "b724cbe1-6030-4a1d-b2ad-20ecebb1ac36")
-	)
-	(wire
-		(pts
-			(xy 36.83 45.72) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7512802-0b13-4b78-8dd8-5d32c6213280")
 	)
 	(wire
 		(pts
@@ -5346,6 +5583,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 173.99) (xy 26.67 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c7eea8-ac5a-448b-819e-d9633c39e958")
+	)
+	(wire
+		(pts
 			(xy 255.27 121.92) (xy 255.27 119.38)
 		)
 		(stroke
@@ -5373,6 +5620,16 @@
 			(type default)
 		)
 		(uuid "c3b2c684-c809-42a5-9d65-b48222aba5e4")
+	)
+	(wire
+		(pts
+			(xy 64.77 181.61) (xy 72.39 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d8d38b-826a-46c0-9a15-5c5c8386a989")
 	)
 	(wire
 		(pts
@@ -5426,16 +5683,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 175.26) (xy 85.09 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef736b1-6730-4df4-8d02-81c7a346e0a5")
-	)
-	(wire
-		(pts
 			(xy 262.89 124.46) (xy 262.89 119.38)
 		)
 		(stroke
@@ -5473,6 +5720,16 @@
 			(type default)
 		)
 		(uuid "d5f7b900-24f5-4cf3-b389-2c02fb8990d1")
+	)
+	(wire
+		(pts
+			(xy 72.39 181.61) (xy 72.39 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63b5a5d-b22a-48f2-b1af-5b47e1b4870d")
 	)
 	(wire
 		(pts
@@ -5543,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "df444f0a-01a2-4c76-b031-892e931bd22e")
+	)
+	(wire
+		(pts
+			(xy 41.91 176.53) (xy 52.07 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df47bb2b-beb0-4b86-9608-09b706129b39")
 	)
 	(wire
 		(pts
@@ -5782,7 +6049,7 @@
 	)
 	(rectangle
 		(start 19.05 165.1)
-		(end 111.76 193.04)
+		(end 81.28 193.04)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5974,7 +6241,7 @@
 		)
 		(uuid "77d0c881-735f-4cff-9f6c-0d6d705cc10c")
 	)
-	(text "DC Output Connectors"
+	(text "DC Output Header"
 		(exclude_from_sim no)
 		(at 19.05 163.83 0)
 		(effects
@@ -6336,7 +6603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05a8ac56-63a3-48f6-a65e-7202d15184af")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0238"
 			(at 269.24 69.85 0)
 			(effects
 				(font
@@ -6386,7 +6653,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0240")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -6540,7 +6807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad5b424-a5fc-4b68-bb42-9274fcfebb00")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0223"
 			(at 157.48 137.16 0)
 			(effects
 				(font
@@ -6590,7 +6857,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0225")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -6675,7 +6942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0db482c8-f2ad-4482-a30f-176fa7cfe5e8")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0226"
 			(at 179.07 40.64 0)
 			(effects
 				(font
@@ -6725,7 +6992,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0228")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -6826,7 +7093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110d108f-22ec-47e8-9e4c-db5e9dcb636b")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0230"
 			(at 191.77 135.89 0)
 			(effects
 				(font
@@ -6876,7 +7143,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0232")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -6892,7 +7159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13683d82-83f9-4c0b-ac68-be9b9ac8b933")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0229"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -6942,7 +7209,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0231")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -7027,7 +7294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "163a0750-014b-4102-b5d3-430319cdc096")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0213"
 			(at 62.23 138.43 0)
 			(effects
 				(font
@@ -7077,7 +7344,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0214")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -7363,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28fb74ed-b512-477a-a1e0-e3fd6f509956")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0211"
 			(at 48.26 138.43 0)
 			(effects
 				(font
@@ -7413,7 +7680,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0210")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -7498,7 +7765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2de93b80-a6dc-4fb0-af6e-eafd877fa8d2")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0227"
 			(at 180.34 110.49 0)
 			(effects
 				(font
@@ -7548,7 +7815,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0229")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -7564,7 +7831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f77786-6592-4d30-a0e5-66e4235b0e1e")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR0239"
 			(at 274.32 109.22 0)
 			(effects
 				(font
@@ -7614,7 +7881,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0241")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -7630,7 +7897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a3c27e9-5686-4542-8e95-d74b1cf67868")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0220"
 			(at 137.16 59.69 0)
 			(effects
 				(font
@@ -7680,7 +7947,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0222")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -7696,7 +7963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e123557-79a2-498e-8448-a3844160fc43")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0221"
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -7746,7 +8013,87 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0223")
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 57.15 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "445a57ce-201f-4ddd-8afa-6a23da00f7c8")
+		(property "Reference" "J203"
+			(at 58.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c2f9346c-22a8-43cf-86b7-e8dc1d019351")
+		)
+		(pin "5"
+			(uuid "566d6e42-88e5-42b8-9502-fb034e88d118")
+		)
+		(pin "1"
+			(uuid "2675b90c-e59c-48b4-bbdf-b96baeb7e96c")
+		)
+		(pin "4"
+			(uuid "ab034d98-60e0-4501-85ec-df75b348cac2")
+		)
+		(pin "3"
+			(uuid "d8776824-dc37-4bac-be46-8ff0cd65d5fc")
+		)
+		(pin "2"
+			(uuid "0c9d1788-50f6-4003-ba40-d31688755a8a")
+		)
+		(instances
+			(project ""
+				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -7762,7 +8109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b8a113-606b-46c0-b8b9-8065bc46c337")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0236"
 			(at 257.81 62.23 0)
 			(effects
 				(font
@@ -7812,7 +8159,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0238")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -7963,7 +8310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53c8c629-2c0f-4e00-bb69-ecb88e8144b0")
-		(property "Reference" "J205"
+		(property "Reference" "J204"
 			(at 90.17 27.94 90)
 			(effects
 				(font
@@ -8021,74 +8368,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 43.18 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55fc7bd4-53bb-437d-9174-166ec8b893f3")
-		(property "Reference" "J203"
-			(at 43.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST-PH-2-Male"
-			(at 43.18 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 43.18 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f9e83d4-734c-4153-a02b-32b7966d1328")
-		)
-		(pin "1"
-			(uuid "26b8ec7a-544a-45ac-b6cf-9a104e4e5388")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J203")
+					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -8104,7 +8384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a6feeba-c67d-4294-b703-d0d95989bb32")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0216"
 			(at 99.06 140.97 0)
 			(effects
 				(font
@@ -8154,7 +8434,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0218")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -8231,7 +8511,7 @@
 		(at 152.4 115.57 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "619eb35e-485a-4cb6-881b-f357ca0d845b")
@@ -8304,7 +8584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62d321a1-eea8-4380-98ed-7f8ac9df16ac")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0237"
 			(at 269.24 40.64 0)
 			(effects
 				(font
@@ -8354,7 +8634,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0239")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -8370,7 +8650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64afdbed-c4cb-4902-8c37-14b475c2ea6b")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0210"
 			(at 46.99 80.01 0)
 			(effects
 				(font
@@ -8420,7 +8700,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0209")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -8503,7 +8783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4c579b-e692-4094-a349-552ce1e2d031")
-		(property "Reference" "J207"
+		(property "Reference" "J205"
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -8570,7 +8850,7 @@
 		(instances
 			(project ""
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J207")
+					(reference "J205")
 					(unit 1)
 				)
 			)
@@ -8807,7 +9087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74430b88-212a-46ff-bf6b-5f8c734a9d2f")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0225"
 			(at 158.75 66.04 0)
 			(effects
 				(font
@@ -8857,7 +9137,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0227")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -9009,7 +9289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "793404e0-3d55-4c94-bcf9-8c8cd9cfe50e")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0207"
 			(at 46.99 46.99 0)
 			(effects
 				(font
@@ -9059,7 +9339,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0206")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -9075,7 +9355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cade585-6222-4e44-a59b-f1bea83bec2c")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0234"
 			(at 238.76 144.78 0)
 			(effects
 				(font
@@ -9125,7 +9405,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0236")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -9405,7 +9685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT_312")
+		(lib_id "Switch:SW_SPDT")
 		(at 193.04 43.18 0)
 		(mirror y)
 		(unit 1)
@@ -9431,7 +9711,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
-			(at 193.04 53.34 0)
+			(at 193.04 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,72 +9750,6 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
 					(reference "SW201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97bb1c23-82f7-4f9d-a092-13389392cb04")
-		(property "Reference" "#PWR0212"
-			(at 57.15 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1c20076-5f46-43f9-8f9b-eed8c778d3a6")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -9611,72 +9825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b9d3088-917a-4065-8761-343b7dca07a0")
-		(property "Reference" "#PWR0217"
-			(at 85.09 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84d8c6a7-3949-475e-8655-a8a87c285dd1")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 68.58 40.64 90)
 		(unit 1)
@@ -9701,7 +9849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_519_Inline_P20.60x5.00mm_D1.00mm_Horizontal"
+		(property "Footprint" "Project_FootprintLib:Fuseholder_LittelFuse_5x20mm_0PTF0078P"
 			(at 68.58 42.418 90)
 			(effects
 				(font
@@ -9745,8 +9893,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 45.72 0)
-		(mirror y)
+		(at 31.75 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9770,7 +9917,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 31.75 45.72 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +9926,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810251322_Changzhou-Amass-Elec-XT60_C98733.pdf"
-			(at 31.75 45.72 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,7 +9935,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 45.72 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,73 +10022,6 @@
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
 					(reference "R209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 99.06 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7e0d3a9-5327-4ba7-b973-036972889189")
-		(property "Reference" "J206"
-			(at 99.06 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST-PH-2-Male"
-			(at 99.06 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f16d4851-e818-4948-8c4e-ed224e435bd3")
-		)
-		(pin "1"
-			(uuid "c5265bfd-6ed6-4e36-b372-e05c740ca2ee")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J206")
 					(unit 1)
 				)
 			)
@@ -10162,7 +10242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae020bb8-0f97-42f1-bead-2b883ef666fb")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0224"
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -10212,7 +10292,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0226")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -10220,7 +10300,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 85.09 175.26 0)
+		(at 26.67 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10228,8 +10308,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af48d6f5-36ff-472d-8b69-720fea50df76")
-		(property "Reference" "#PWR0216"
-			(at 85.09 179.07 0)
+		(property "Reference" "#PWR0203"
+			(at 26.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,7 +10318,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 85.09 170.18 0)
+			(at 26.67 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 175.26 0)
+			(at 26.67 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 175.26 0)
+			(at 26.67 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 85.09 175.26 0)
+			(at 26.67 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10278,7 +10358,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0216")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -10361,7 +10441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b513ac60-bb6c-409a-9e3e-a72694e0d04b")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0218"
 			(at 125.73 134.62 0)
 			(effects
 				(font
@@ -10411,7 +10491,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0220")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -10427,7 +10507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73b7fb3-d9c4-4531-8599-4d8a79908181")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0219"
 			(at 135.89 134.62 0)
 			(effects
 				(font
@@ -10477,7 +10557,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0221")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -10554,7 +10634,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 29.21 175.26 0)
+		(at 41.91 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10562,8 +10642,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf7642a6-036b-4a4a-bc91-e8e9fb3ad05e")
-		(property "Reference" "#PWR0203"
-			(at 29.21 179.07 0)
+		(property "Reference" "#PWR0206"
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10652,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 29.21 170.18 0)
+			(at 41.91 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +10660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 175.26 0)
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +10669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 175.26 0)
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,7 +10678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 29.21 175.26 0)
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10692,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0203")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -10826,7 +10906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 182.88 0)
+		(at 72.39 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10834,8 +10914,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac79752-95cb-4639-8493-afb272311495")
-		(property "Reference" "#PWR0204"
-			(at 29.21 189.23 0)
+		(property "Reference" "#PWR0214"
+			(at 72.39 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,7 +10924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 187.96 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10852,7 +10932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 182.88 0)
+			(at 72.39 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10861,7 +10941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 182.88 0)
+			(at 72.39 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,7 +10950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 182.88 0)
+			(at 72.39 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +10964,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0204")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -10962,7 +11042,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 57.15 175.26 0)
+		(at 34.29 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10970,8 +11050,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc27bcca-bca9-4db1-b410-8103fff4d853")
-		(property "Reference" "#PWR0211"
-			(at 57.15 179.07 0)
+		(property "Reference" "#PWR0204"
+			(at 34.29 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +11060,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 57.15 170.18 0)
+			(at 34.29 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,7 +11068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 175.26 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +11077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 175.26 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +11086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 175.26 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +11100,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0211")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -11105,7 +11185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf0d0a04-3fc9-47e6-8e61-491d38a57c50")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0235"
 			(at 247.65 62.23 0)
 			(effects
 				(font
@@ -11155,7 +11235,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0237")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -11171,7 +11251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfe50d58-49a1-4402-8d59-3184f553991d")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0233"
 			(at 238.76 62.23 0)
 			(effects
 				(font
@@ -11221,7 +11301,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0235")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -11453,7 +11533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7906a66-4d40-427d-aee0-8c76027d2d42")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0212"
 			(at 62.23 40.64 0)
 			(effects
 				(font
@@ -11503,7 +11583,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0213")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -11588,7 +11668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f30fa6-7d74-45c8-b45c-19ac56366527")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0208"
 			(at 46.99 55.88 0)
 			(effects
 				(font
@@ -11638,7 +11718,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0207")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -11654,7 +11734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebcc805d-8038-4caf-ba83-556f9e8ba4d6")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0228"
 			(at 180.34 135.89 0)
 			(effects
 				(font
@@ -11704,74 +11784,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0230")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 71.12 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebffb81a-9cdd-4748-a642-58b6b717b096")
-		(property "Reference" "J204"
-			(at 71.12 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST-PH-2-Male"
-			(at 71.12 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 71.12 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef72909e-aae1-49b4-8106-6e2486bb57f5")
-		)
-		(pin "1"
-			(uuid "510ca25c-55cd-4c13-845b-340502ef65f7")
-		)
-		(instances
-			(project "LizardBot1_ControlBoard_v1"
-				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "J204")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -11787,7 +11800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ece5be53-7212-47d9-8f87-67475cfb288f")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0217"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -11837,7 +11850,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0219")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -11922,7 +11935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef554902-7174-42fe-9e21-cecd9de85a86")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0209"
 			(at 46.99 69.85 0)
 			(effects
 				(font
@@ -11972,7 +11985,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0208")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -11988,7 +12001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d8a439-9f5c-47b1-9ec6-45b5cede146f")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0222"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -12038,7 +12051,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0224")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -12054,7 +12067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d45b7c-ea0a-40cc-bd72-67a5ea1b20d6")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0232"
 			(at 210.82 62.23 0)
 			(effects
 				(font
@@ -12104,7 +12117,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0234")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -12120,7 +12133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f85dbe85-c4d8-4c2e-a1aa-f83ba6c617ae")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0231"
 			(at 200.66 62.23 0)
 			(effects
 				(font
@@ -12170,7 +12183,7 @@
 		(instances
 			(project "LizardBot1_ControlBoard_v1"
 				(path "/1a674a4d-d877-4d7a-ad57-e0a054705c31/1ad8e535-9964-46ac-bb04-941393eb127d"
-					(reference "#PWR0233")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)

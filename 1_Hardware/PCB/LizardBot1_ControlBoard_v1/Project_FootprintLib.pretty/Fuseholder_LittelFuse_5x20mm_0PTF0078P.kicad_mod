@@ -1,0 +1,246 @@
+(footprint "Fuseholder_LittelFuse_5x20mm_0PTF0078P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0PTF0078P-1")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "U**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f8044d31-c3e5-4dad-9d45-e093443d1932")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LittelFuse 0PTF0078P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c44b298c-c98d-49ab-ab62-ba4d252c37d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39b40316-3c58-4670-9cdd-fdb1098fcab1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://pt.mouser.com/datasheet/2/240/media-3322743.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bd434e3-65f5-441e-bdb6-7c58eaf10bb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "587688d7-a6c4-45e3-8950-46d94c1a90b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.2 -4.7)
+		(end 12.2 -4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba0a0df1-555c-4cee-9880-3d83c461ce72")
+	)
+	(fp_line
+		(start -12.2 -2)
+		(end -12.2 -4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db2ce684-9659-43d7-8e9c-815a1d3e826a")
+	)
+	(fp_line
+		(start -12.2 2)
+		(end -12.2 4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e80f2e78-cfd4-467f-8f80-3bcbc54d92e7")
+	)
+	(fp_line
+		(start -12.2 4.7)
+		(end 12.2 4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b3c6b30-d9e6-4a3a-a7a8-b1b22d4c6a09")
+	)
+	(fp_line
+		(start 12.2 -4.7)
+		(end 12.2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c1c3776-55be-4167-9814-afb13d3535d0")
+	)
+	(fp_line
+		(start 12.2 4.7)
+		(end 12.2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "888f119c-d1f9-48eb-8574-8b2f49516af7")
+	)
+	(fp_line
+		(start -13.425 -5.7)
+		(end 13.425 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66867688-11a0-4fcf-b719-1226b38e9863")
+	)
+	(fp_line
+		(start -13.425 5.7)
+		(end -13.425 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "acd46cea-ac3a-4413-9685-02ec2f6e6bd7")
+	)
+	(fp_line
+		(start 13.425 -5.7)
+		(end 13.425 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab0fc19a-0c33-4b9d-99d3-9825dbf40738")
+	)
+	(fp_line
+		(start 13.425 5.7)
+		(end -13.425 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc5dfcf9-3579-4785-9855-06acd4911c22")
+	)
+	(fp_line
+		(start -12.2 -4.7)
+		(end 12.2 -4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e77d82f-9c28-4c80-919d-f8f28864a754")
+	)
+	(fp_line
+		(start -12.2 4.7)
+		(end -12.2 -4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8e4be88-e468-4bf1-8dfb-368a421c8b37")
+	)
+	(fp_line
+		(start 12.2 -4.7)
+		(end 12.2 4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "128c9be8-cbca-4e7f-8a25-799a70103c04")
+	)
+	(fp_line
+		(start 12.2 4.7)
+		(end -12.2 4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23668f21-4021-413f-951e-23cfd2b68233")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f54ec5a0-6741-46d0-ba4a-c7541d9864b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -11.3 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc710951-6f10-4168-9c59-0c152a2e5fec")
+	)
+	(pad "2" thru_hole circle
+		(at 11.3 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "505981cd-122a-49df-a6ab-509d0aa874d2")
+	)
+	(model "/home/manuel/Documents/KiCad/3dmodels/Fuses/Fuseholder_LittelFuse_5x20mm_0PTF0078P.stp"
+		(offset
+			(xyz 0 0 6.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

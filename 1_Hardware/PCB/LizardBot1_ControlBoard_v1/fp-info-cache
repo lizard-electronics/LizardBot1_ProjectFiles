@@ -1,4 +1,4 @@
-23620841801105933
+23624284057545076
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57357,6 +57357,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Fuse_Additional
+Fuseholder_LittelFuse_5x20mm_0PTF0078P
+0PTF0078P-1
+Undefined or Miscellaneous
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -85147,6 +85154,13 @@ Potentiometer vertical vishay
 0
 3
 3
+Project_FootprintLib
+Fuseholder_LittelFuse_5x20mm_0PTF0078P
+0PTF0078P-1
+Undefined or Miscellaneous
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

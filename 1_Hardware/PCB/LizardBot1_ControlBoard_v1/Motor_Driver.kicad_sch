@@ -1770,6 +1770,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff58418-03a8-4472-8cfb-22ea038c81f8")
+	)
+	(wire
+		(pts
 			(xy 231.14 48.26) (xy 243.84 48.26)
 		)
 		(stroke
@@ -1867,16 +1877,6 @@
 			(type default)
 		)
 		(uuid "37be512d-43b2-496e-91d8-7ca223bedbbf")
-	)
-	(wire
-		(pts
-			(xy 238.76 139.7) (xy 255.27 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400c108f-26b5-4fb4-8bde-c93bc8b6baf5")
 	)
 	(wire
 		(pts
@@ -1980,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 139.7) (xy 255.27 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a53773e-cc03-4193-967e-6cc892573a0f")
+	)
+	(wire
+		(pts
 			(xy 231.14 60.96) (xy 252.73 60.96)
 		)
 		(stroke
@@ -2027,16 +2037,6 @@
 			(type default)
 		)
 		(uuid "60f054ff-3b3f-4ac7-8aed-8ec193af8adb")
-	)
-	(wire
-		(pts
-			(xy 238.76 109.22) (xy 255.27 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6271e3d1-e586-4f56-9293-f8204411b123")
 	)
 	(wire
 		(pts
@@ -2790,16 +2790,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 60.96) (xy 71.12 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f375d352-b95e-4553-ab98-fcfe36f90209")
-	)
-	(wire
-		(pts
 			(xy 54.61 121.92) (xy 54.61 132.08)
 		)
 		(stroke
@@ -2817,6 +2807,16 @@
 			(type default)
 		)
 		(uuid "f5b6f746-068e-40c7-89ac-714c1dbeda00")
+	)
+	(wire
+		(pts
+			(xy 238.76 109.22) (xy 255.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cb8b4d-be94-4d98-8ce8-72b9447c44fd")
 	)
 	(wire
 		(pts
@@ -3081,7 +3081,7 @@
 		(uuid "2224c98a-fb35-4ee2-aa2f-32747f672faa")
 	)
 	(label "DRV2_OUT2"
-		(at 238.76 139.7 0)
+		(at 238.76 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3090,6 +3090,17 @@
 			(justify left bottom)
 		)
 		(uuid "2606bc1a-f098-4600-b6a4-fd564e4fee57")
+	)
+	(label "DRV2_OUT1"
+		(at 238.76 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "284d22fe-72d5-484e-b1e6-724ce824275a")
 	)
 	(label "DRV2_nFAULT"
 		(at 273.05 53.34 180)
@@ -3245,17 +3256,6 @@
 		)
 		(uuid "5f88f7ff-ce63-47a4-98ee-e441edbee6fd")
 	)
-	(label "DRV1_OUT1"
-		(at 238.76 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "686b7870-16b2-47c7-8d43-37cc374d70c5")
-	)
 	(label "DRV2_OUT2"
 		(at 243.84 48.26 180)
 		(fields_autoplaced yes)
@@ -3310,17 +3310,6 @@
 			(justify left bottom)
 		)
 		(uuid "7a6baedb-d29d-4844-960f-08a331440282")
-	)
-	(label "DRV2_OUT1"
-		(at 238.76 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "805a4913-2c8f-4a61-ac97-494fd0f3d137")
 	)
 	(label "DRV1_EN_IN1"
 		(at 55.88 55.88 0)
@@ -3389,7 +3378,7 @@
 		(uuid "a8611189-b79e-488f-a73d-48df6e979d66")
 	)
 	(label "DRV1_OUT2"
-		(at 238.76 109.22 0)
+		(at 238.76 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3563,6 +3552,17 @@
 			(justify left bottom)
 		)
 		(uuid "f369dc56-58cb-4ae6-b176-9675eff5c20c")
+	)
+	(label "DRV1_OUT1"
+		(at 238.76 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f39a9cf1-acff-4cf2-a80c-5b0f26550a92")
 	)
 	(label "DRV2_IPROPI"
 		(at 273.05 55.88 180)
@@ -4152,7 +4152,7 @@
 		(at 43.18 121.92 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5157,7 +5157,7 @@
 		(at 116.84 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6150,7 +6150,7 @@
 		(at 43.18 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6218,7 +6218,7 @@
 		(at 116.84 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6630,7 +6630,7 @@
 		(at 116.84 118.11 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
