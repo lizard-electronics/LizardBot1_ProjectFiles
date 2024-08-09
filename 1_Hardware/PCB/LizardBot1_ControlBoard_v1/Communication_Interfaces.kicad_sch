@@ -438,26 +438,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 52.07) (xy 67.31 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186818d6-2af8-43dd-ba0d-ca7d243ee23b")
-	)
-	(wire
-		(pts
-			(xy 116.84 52.07) (xy 133.35 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cb8cde3-0933-48a6-8922-ced6ea1efd82")
-	)
-	(wire
-		(pts
 			(xy 116.84 59.69) (xy 133.35 59.69)
 		)
 		(stroke
@@ -478,23 +458,43 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 57.15) (xy 133.35 57.15)
+			(xy 44.45 57.15) (xy 67.31 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e5d8213-5830-436d-9965-392b7665feba")
+		(uuid "31cd42f6-9c14-4b04-ad4f-625557621822")
 	)
 	(wire
 		(pts
-			(xy 121.92 54.61) (xy 133.35 54.61)
+			(xy 116.84 57.15) (xy 133.35 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ee4db38-1303-43e5-87a0-fcce875d8d6c")
+		(uuid "354402c5-d05a-41c4-afeb-01a1393822f2")
+	)
+	(wire
+		(pts
+			(xy 67.31 52.07) (xy 53.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e6c441-0f5b-4718-96ab-9e2feb0def53")
+	)
+	(wire
+		(pts
+			(xy 133.35 54.61) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1ecc32-da00-42a8-95f9-010cf875322b")
 	)
 	(wire
 		(pts
@@ -515,16 +515,6 @@
 			(type default)
 		)
 		(uuid "4f479fb6-8780-412c-a861-ff301baca12c")
-	)
-	(wire
-		(pts
-			(xy 44.45 57.15) (xy 67.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ebfc99f-1977-4fb7-b4d0-fab100a19a9a")
 	)
 	(wire
 		(pts
@@ -558,13 +548,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 49.53) (xy 116.84 52.07)
+			(xy 116.84 49.53) (xy 116.84 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89bb1334-42f7-46e6-b437-8fdd1bca4e85")
+		(uuid "6fb776e4-2eac-4321-b75d-3b9430a23b4b")
 	)
 	(wire
 		(pts
@@ -608,6 +598,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 52.07) (xy 121.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e722cc-aa59-42ae-bcc5-b678e0c8e512")
+	)
+	(wire
+		(pts
 			(xy 116.84 62.23) (xy 116.84 59.69)
 		)
 		(stroke
@@ -638,13 +638,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 67.31 54.61)
+			(xy 67.31 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9000372-e34c-4d27-8492-5b037e387b3f")
+		(uuid "c9fd7b0a-2c3c-4485-841d-dc2d0ffe82e3")
 	)
 	(wire
 		(pts
@@ -725,7 +725,7 @@
 		(uuid "00cbc189-c669-4130-8374-6d5d9b6fc3fe")
 	)
 	(label "MCU_SDA"
-		(at 121.92 54.61 0)
+		(at 121.92 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -736,7 +736,7 @@
 		(uuid "27ed14f0-042f-4ff6-9245-edb98cd5e880")
 	)
 	(label "MCU_SCL"
-		(at 121.92 57.15 0)
+		(at 121.92 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -756,17 +756,6 @@
 			(justify right bottom)
 		)
 		(uuid "519ff5e9-e4c0-4ff2-8aa4-50b728f21e9f")
-	)
-	(label "MCU_TXD0"
-		(at 53.34 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65df6b78-a9e0-4f0b-a9f5-8d963369b468")
 	)
 	(label "MCU_TXD0"
 		(at 133.35 181.61 0)
@@ -790,7 +779,7 @@
 		)
 		(uuid "a3b13947-7709-436b-8d63-18284cded38d")
 	)
-	(label "MCU_RXD0"
+	(label "MCU_TXD0"
 		(at 53.34 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -799,7 +788,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b7bb1e9d-e8f3-4d72-aa0f-a8244b907409")
+		(uuid "ccae37f5-cc89-47f5-aa5e-f4db9fa629e8")
 	)
 	(label "MCU_RXD0"
 		(at 133.35 179.07 0)
@@ -822,6 +811,17 @@
 			(justify left bottom)
 		)
 		(uuid "dd5fdc05-98be-43b6-81cf-bb984bdf881d")
+	)
+	(label "MCU_RXD0"
+		(at 53.34 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2cd9a66-0498-4f7f-aa13-006860475865")
 	)
 	(hierarchical_label "MCU_SDA"
 		(shape bidirectional)
@@ -1350,7 +1350,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 72.39 54.61 0)
+		(at 72.39 57.15 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1374,7 +1375,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 72.39 54.61 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 54.61 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1393,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 54.61 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

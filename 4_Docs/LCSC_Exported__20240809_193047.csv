@@ -1,0 +1,37 @@
+LCSC Part Number,Manufacture Part Number,Manufacturer,Customer NO.,Package,Description,RoHS,Order Qty.,Min\Mult Order Qty.,Unit Price(€),Order Price(€)
+C7428406,SEA-12095-0540-42Ω-40P6.5,S&S,,"Plugin,D=12mm","85dB Passive (external drive) 4kHz Plugin,D=12mm Buzzers ROHS",YES,5,5\5,0.1085,0.54
+C4747956,RST470UF25V032,KNSCHA,,"SMD,D8xL10.5mm","470uF 25V 280mA@120Hz ±20% SMD,D8xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS",YES,10,5\5,0.0878,0.88
+C4747976,RST220UF35V022,KNSCHA,,"SMD,D8xL10.5mm","220uF 35V 190mA@120Hz ±20% SMD,D8xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS",YES,10,10\10,0.0584,0.58
+C91368,0603CG330J500NT,FH (Guangdong Fenghua Advanced Tech),,0603,50V 33pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,100,100\100,0.0029,0.29
+C51574,0805B223K500NT,FH (Guangdong Fenghua Advanced Tech),,0805,50V 22nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,YES,100,100\100,0.0053,0.53
+C507911,BZT52C12T-7,Diodes Incorporated,,SOD-523,Independent Type 11.4V~12.7V 300mW 12V SOD-523 Zener Diodes ROHS,YES,10,10\10,0.032,0.32
+C2875475,SS1P3L-M3/84A,Vishay Intertech,,DO-220AA(SMP),30V 1.5A 450mV@1A DO-220AA(SMP) Schottky Diodes ROHS,YES,5,5\5,0.1617,0.81
+C2760101,0PTF0078P,Littelfuse,,-,Fuseholders ROHS,YES,5,1\1,0.3618,1.81
+C3166596,0234010.MXP,Littelfuse,,-,200A 10A 250V Disposable fuses ROHS,YES,5,5\5,0.3127,1.56
+C127824,1812L300MR,Littelfuse,,1812,6V 3A 100A 5A 1812 Resettable Fuses ROHS,YES,5,5\5,0.718,3.59
+C118413,1206L150THWR,Littelfuse,,1206,8V 1.5A 100A 3A 1206 Resettable Fuses ROHS,YES,10,10\10,0.0428,0.43
+C98732,XT60PW-M,Changzhou Amass Elec,,-,plug ROHS,YES,3,1\1,0.4592,1.38
+C8383,WJ2EDGR-5.08-2P,Ningbo Kangnex Elec,,"Push-Pull,P=5.08mm","2 Bend 1 5.08mm 1x2P Green Board end/socket - Open type Push-Pull,P=5.08mm Pluggable System Terminal Block ",NO,10,10\10,0.0322,0.32
+C71370,WJ2EDGK-5.08-2P,Ningbo Kangnex Elec,,P=5.08mm,1 5.08mm 2 1x2P Green Plug P=5.08mm Pluggable System Terminal Block ROHS,YES,10,5\5,0.1227,1.23
+C173752,S2B-PH-K-S(LF)(SN),JST,,"Push-Pull,P=2mm","1x2P 2P PH Tin 2 -25℃~+85℃ 2A 1 2mm Brass Bend insert Push-Pull,P=2mm Wire To Board Connector ROHS",YES,50,1\1,0.0189,0.95
+C3195190,PHR-2,JST,,P=2mm,-25℃~+85℃ 2mm 1x2P PH 2 1 Without a buckle P=2mm Housings (Wire To Board / Wire To Wire ) ROHS,YES,50,50\50,0.0094,0.47
+C8443,WJ2EDGR-5.08-4P,Ningbo Kangnex Elec,,"Push-Pull,P=5.08mm","4 Bend 1 5.08mm 1x4P Green Board end/socket - Open type Push-Pull,P=5.08mm Pluggable System Terminal Block ROHS",YES,5,5\5,0.0626,0.31
+C71372,WJ2EDGK-5.08-4P,Ningbo Kangnex Elec,,P=5.08mm,4 1 5.08mm 1x4P Green Plug P=5.08mm Pluggable System Terminal Block ROHS,YES,5,5\5,0.2799,1.40
+C157929,S3B-PH-K-S(LF)(SN),JST,,"Push-Pull,P=2mm","1x3P 3P PH Tin 3 -25℃~+85℃ 2A 1 2mm Brass Bend insert Push-Pull,P=2mm Wire To Board Connector ROHS",YES,20,10\10,0.0304,0.61
+C265393,PHR-3,JST,,P=2mm,-25℃~+85℃ 2mm 1x3P PH 3 1 Without a buckle P=2mm Housings (Wire To Board / Wire To Wire ) ROHS,YES,50,50\50,0.0167,0.84
+C840529,SRP7028A-4R7M,BOURNS,,"SMD,6.6x7.3mm","5.5A 4.7uH ±20% 10A SMD,6.6x7.3mm Power Inductors ROHS",YES,3,1\1,0.4311,1.29
+C6495636,SQ4425EY-T1_GE3,Vishay Intertech,,SOIC-8,"30V 18A 12mΩ@13A,10V 6.8W 2.5V@250uA 1 Piece P-Channel SOIC-8 MOSFETs ROHS",YES,3,1\1,1.5723,4.72
+C123008,UMH3NTN,ROHM Semicon,,SOT-363,"100@1mA,5V 150mW 100mA 50V SOT-363 Digital Transistors ROHS",YES,10,10\10,0.0535,0.54
+C7420339,BSS138,hongjiacheng,,SOT-23,"50V 340mA 2.5Ω@10V,0.34A 350mW 1.6V@250uA 1 N-Channel SOT-23 MOSFETs ROHS",YES,50,50\50,0.0127,0.64
+C51118,AP2112K-3.3TRG1,Diodes Incorporated,,SOT-25-5,"65dB@(100Hz,1kHz) 600mA Fixed 3.3V Positive electrode 6V SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",YES,5,5\5,0.08,0.40
+C2827693,USBLC6-2P6,TECH PUBLIC,,SOT-666-6,SOT-666-6 ESD and Surge Protection (TVS/ESD) ROHS,YES,5,5\5,0.0822,0.41
+C1855818,DRV8874PWPR,Texas Instruments,,HTSSOP-16-EP,HTSSOP-16-EP Brushed DC Motor Drivers ROHS,YES,4,1\1,0.9021,3.61
+C17726,0805W8F5491T5E,UNI-ROYAL(Uniroyal Elec),,0805,125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 5.49kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0017,0.17
+C17678,0805W8F4022T5E,UNI-ROYAL(Uniroyal Elec),,0805,125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 40.2kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0017,0.17
+C17414,0805W8F1002T5E,UNI-ROYAL(Uniroyal Elec),,0805,125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0016,0.16
+C26010,0805W8F3301T5E,UNI-ROYAL(Uniroyal Elec),,0805,125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0017,0.17
+C23186,0603WAF5101T5E,UNI-ROYAL(Uniroyal Elec),,0603,100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 5.1kΩ 0603 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.001,0.10
+C17783,0805W8F6202T5E,UNI-ROYAL(Uniroyal Elec),,0805,125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 62kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0017,0.17
+C17379,0805W8F1201T5E,UNI-ROYAL(Uniroyal Elec),,0805,125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0017,0.17
+C17490,0805W8F1602T5E,UNI-ROYAL(Uniroyal Elec),,0805,125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 16kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,100,100\100,0.0017,0.17
+C2828840,ARG05DTC5002,Viking Tech,,0805,125mW Thin Film Resistor 150V ±0.5% ±25ppm/℃ 50kΩ 0805 Chip Resistor - Surface Mount ROHS,YES,50,50\50,0.0087,0.44
