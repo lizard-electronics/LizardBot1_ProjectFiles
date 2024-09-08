@@ -1,3 +1,8 @@
 # Untrack KiCad PCB backups
 1_Hardware/PCB/LizardBot1_ControlBoard_v1/LizardBot1_ControlBoard_v1-backups/
+
+# Untrack large .step file (ControlBoard 3D Model)
 1_Hardware/PCB/LizardBot1_ControlBoard_v1/LizardBot1_ControlBoard_v1_wCopper.step
+
+# Untrack project cost and invoice files
+4_Docs/Invoices/
