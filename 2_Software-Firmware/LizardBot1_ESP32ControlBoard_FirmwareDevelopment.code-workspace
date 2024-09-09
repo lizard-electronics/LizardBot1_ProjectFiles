@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "LizardBot1_ESP32ControlBoard_DRV8874-PWM-Test"
+		},
+		{
+			"name": "LizardBot1_ESP32ControlBoard_Firmware_v1",
+			"path": "LizardBot1_ESP32ControlBoard_Firmware_v1"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"definitions": "c"
+		}
+	}
+}
